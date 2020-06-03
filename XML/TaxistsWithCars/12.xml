@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<LuxuryCar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <taxist>
+    <Name>12</Name>
+    <Surname>12</Surname>
+    <IsWorking>false</IsWorking>
+    <Nickname>12</Nickname>
+    <Password>12</Password>
+  </taxist>
+  <CarName>12</CarName>
+  <CarModel>12</CarModel>
+  <CarNumber>12</CarNumber>
+  <NumberOfSeats>1</NumberOfSeats>
+  <IsTv>true</IsTv>
+  <IsAlcohol>true</IsAlcohol>
+</LuxuryCar>

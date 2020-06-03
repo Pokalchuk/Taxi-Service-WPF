@@ -1,0 +1,38 @@
+﻿<Window x:Class="TaxiServiceWPF.OrderTaxiForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaxiServiceWPF"  xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="OrderTaxiForm" Height="300" Width="450" MinHeight="230" MinWidth="400" MaxHeight="400" MaxWidth="600"  WindowStyle="None" MouseDown="Window_MouseDown" AllowsTransparency="True" ResizeMode="CanResize">
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="0"/>
+    </WindowChrome.WindowChrome>
+    <Grid Background="#FF202225">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="1.15*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <DockPanel Grid.Column="1" VerticalAlignment="Top" HorizontalAlignment="Right" LastChildFill="False">
+            <Button VerticalAlignment="Top" HorizontalAlignment="Right" Width="60" Height="30"  x:Name="buttonClose" Background="Transparent" BorderBrush="Transparent" Click="buttonClose_Click_1">
+                <materialDesign:PackIcon  Kind="Close" Width="25" Height="25"></materialDesign:PackIcon>
+            </Button>
+        </DockPanel>
+
+        <ComboBox Name="comboBoxCarsType" Margin="50,25,50,5" FontSize="18" Foreground="White" materialDesign:HintAssist.Hint="Choice car type">
+            <ComboBoxItem>Econom</ComboBoxItem>
+            <ComboBoxItem>Luxury</ComboBoxItem>
+            <ComboBoxItem>Truck</ComboBoxItem>
+        </ComboBox>
+
+        <TextBox x:Name="textBoxCurrentAdress" Grid.Row="2" Margin="20,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="18" Foreground="White" materialDesign:HintAssist.Hint="Current adress"></TextBox>
+        <TextBox x:Name="textBoxFinalAddress" Grid.Row="2" Margin="0,0,20,0" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="18" Foreground="White" materialDesign:HintAssist.Hint="Final adress"></TextBox>
+
+        <Button x:Name="buttonFindCar" Grid.Row="3" Margin="150,0,150,0" Click="buttonFindCar_Click">Find</Button>
+    
+    </Grid>
+</Window>

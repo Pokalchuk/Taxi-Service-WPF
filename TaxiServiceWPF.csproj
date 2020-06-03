@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B360F0B0-3B52-4D88-9501-9D6918B35287}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TaxiServiceWPF</RootNamespace>
+    <AssemblyName>TaxiServiceWPF</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="JetBrains.Annotations, Version=2018.2.1.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325, processorArchitecture=MSIL">
+      <HintPath>packages\JetBrains.Annotations.2018.2.1\lib\net20\JetBrains.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignColors, Version=1.2.6.1513, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MaterialDesignColors.1.2.6\lib\net45\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=3.1.3.1513, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MaterialDesignThemes.3.1.3\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Interactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\System.Windows.Interactivity.WPF.2.0.20525\lib\net40\Microsoft.Expression.Interactions.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Scar.Common.WPF.Controls.Behaviors, Version=1.0.6731.30683, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Scar.Common.WPF.Controls.Behaviors.1.0.6731.30683\lib\net47\Scar.Common.WPF.Controls.Behaviors.dll</HintPath>
+    </Reference>
+    <Reference Include="Scar.Common.WPF.Controls.NumericUpDown, Version=1.0.6811.31762, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Scar.Common.WPF.Controls.NumericUpDown.1.0.6811.31762\lib\net47\Scar.Common.WPF.Controls.NumericUpDown.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Interactivity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\System.Windows.Interactivity.WPF.2.0.20525\lib\net40\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Car\Truck.cs" />
+    <Compile Include="Taxist\TaxistWorkInfo.xaml.cs">
+      <DependentUpon>TaxistWorkInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="User\DetailsArrivalCar.xaml.cs">
+      <DependentUpon>DetailsArrivalCar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Login\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Login\LoginTaxist.xaml.cs">
+      <DependentUpon>LoginTaxist.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StartPoint\Menu.xaml.cs">
+      <DependentUpon>Menu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="User\OrderTaxiForm.xaml.cs">
+      <DependentUpon>OrderTaxiForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Registration\RegistrationTaxist.xaml.cs">
+      <DependentUpon>RegistrationTaxist.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Registration\RegistrationUser.xaml.cs">
+      <DependentUpon>RegistrationUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Taxist\TaxistEconomCarDetails.xaml.cs">
+      <DependentUpon>TaxistEconomCarDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Taxist\TaxistLuxuryCarDetails.xaml.cs">
+      <DependentUpon>TaxistLuxuryCarDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Taxist\TaxistTruckDetails.xaml.cs">
+      <DependentUpon>TaxistTruckDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Taxist\TaxistPerson.cs" />
+    <Compile Include="Taxist\TaxistWorking.xaml.cs">
+      <DependentUpon>TaxistWorking.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserTruckSettings.xaml.cs">
+      <DependentUpon>UserTruckSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserLuxurySettings.xaml.cs">
+      <DependentUpon>UserLuxurySettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserEconomSettings.xaml.cs">
+      <DependentUpon>UserEconomSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="User\User.cs" />
+    <Page Include="Taxist\TaxistWorkInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="User\DetailsArrivalCar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Login\Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Login\LoginTaxist.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Login\LoginUser.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Car\Car.cs" />
+    <Compile Include="Car\EconomCar.cs" />
+    <Compile Include="Car\LuxuryCar.cs" />
+    <Compile Include="Login\LoginUser.xaml.cs">
+      <DependentUpon>LoginUser.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="StartPoint\Menu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="User\OrderTaxiForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Registration\RegistrationTaxist.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Registration\RegistrationUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Taxist\TaxistEconomCarDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Taxist\TaxistLuxuryCarDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Taxist\TaxistTruckDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Taxist\TaxistWorking.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="User\UserTruckSettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="User\UserLuxurySettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="User\UserEconomSettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="OtherClasses\Base.cs" />
+    <Compile Include="OtherClasses\District.cs" />
+    <Compile Include="OtherClasses\Person.cs" />
+    <Compile Include="OtherClasses\Sound.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\EconomCar.jpg" />
+    <Resource Include="Images\LuxuryCar.jpg" />
+    <Resource Include="Images\taxi.png" />
+    <Resource Include="Images\taxi2.png" />
+    <Resource Include="Images\Taxi3.png" />
+    <Resource Include="Images\Truck.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Files\Taxists\" />
+    <Folder Include="Files\Users\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="packages\MaterialDesignThemes.3.1.3\build\MaterialDesignThemes.targets" Condition="Exists('packages\MaterialDesignThemes.3.1.3\build\MaterialDesignThemes.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\MaterialDesignThemes.3.1.3\build\MaterialDesignThemes.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\MaterialDesignThemes.3.1.3\build\MaterialDesignThemes.targets'))" />
+  </Target>
+</Project>

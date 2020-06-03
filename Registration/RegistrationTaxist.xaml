@@ -1,0 +1,119 @@
+﻿<Window x:Class="TaxiServiceWPF.RegistrationTaxist"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaxiServiceWPF" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="RegistrationTaxist" Height="650" Width="1000" MinHeight="650" MinWidth="925"  WindowStyle="None" MouseDown="Window_MouseDown" AllowsTransparency="True" ResizeMode="CanResize" >
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="0"/>
+    </WindowChrome.WindowChrome>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Background="#FF202225">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="2.7*"></RowDefinition>
+                <RowDefinition ></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="2.5*"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Label  Foreground="Bisque" HorizontalAlignment="Center" FontSize="35.5" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3">Affordable, reliable and fast</Label>
+            <Image Grid.Row="1" Grid.Column="1" Source="..\Images\taxi2.png">
+                <Image.Effect>
+                    <DropShadowEffect></DropShadowEffect>
+                </Image.Effect>
+            </Image>
+            <Label Grid.Row="0" FontSize="45" BorderBrush="Transparent" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" Background="{x:Null}" FontWeight="Bold">Taxi Service</Label>
+        </Grid>
+        <Grid Grid.Column="1" Background="#FF1A1B1F" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" ></RowDefinition>
+                <RowDefinition Height="1.2*"></RowDefinition>
+                <RowDefinition Height="1.2*"></RowDefinition>
+                <RowDefinition Height="1.2*"></RowDefinition>
+                <RowDefinition Height="1.2*"></RowDefinition>
+                <RowDefinition Height="1.2*"></RowDefinition>
+                <RowDefinition Height="1.2*"></RowDefinition>
+                <RowDefinition Height="1.2*"></RowDefinition>
+                <RowDefinition Height="1.2*"></RowDefinition>
+                <RowDefinition Height="1.2*"></RowDefinition>
+                <RowDefinition Height="1.2*"></RowDefinition>
+                <RowDefinition Height="1.2*"></RowDefinition>
+                <RowDefinition Height="0.5*"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="29*"></ColumnDefinition>
+                <ColumnDefinition Width="198*"></ColumnDefinition>
+                <ColumnDefinition Width="23*"/>
+            </Grid.ColumnDefinitions>
+            <DockPanel Grid.Column="1" VerticalAlignment="Top" HorizontalAlignment="Right" LastChildFill="False" Grid.ColumnSpan="2">
+                <Button VerticalAlignment="Top" HorizontalAlignment="Right" Width="60" Height="30"  x:Name="buttonClose" Background="Transparent" BorderBrush="Transparent" Click="buttonClose_Click_1">
+                    <materialDesign:PackIcon  Kind="Close" Width="25" Height="25"></materialDesign:PackIcon>
+                </Button>
+            </DockPanel>
+
+            <materialDesign:PackIcon  Grid.Column="0" Grid.Row="1" Kind="Portrait" HorizontalAlignment="Center" VerticalAlignment="Center" Width="33" Height="35"  Foreground="#707070" Margin="12,7.6,12.6,7.8"></materialDesign:PackIcon>
+            <materialDesign:PackIcon  Grid.Column="0" Grid.Row="2" Kind="BriefcasePersonOutline" HorizontalAlignment="Center" VerticalAlignment="Center" Width="33" Height="36"  Foreground="#707070" Margin="12,7.2,12.6,7.2"></materialDesign:PackIcon>
+            <materialDesign:PackIcon  Grid.Column="0" Grid.Row="3" Kind="DateRange" HorizontalAlignment="Center" VerticalAlignment="Center" Width="33" Height="35"  Foreground="#707070" Margin="12,7.8,12.6,7.6"></materialDesign:PackIcon>
+            <materialDesign:PackIcon  Grid.Column="0" Grid.Row="4" Kind="User" HorizontalAlignment="Center" VerticalAlignment="Center" Width="33" Height="35"  Foreground="#707070" Margin="12,7.4,12.6,8"></materialDesign:PackIcon>
+            <materialDesign:PackIcon  Grid.Column="0" Grid.Row="5" Kind="Key" HorizontalAlignment="Center" VerticalAlignment="Center" Width="33" Height="35"  Foreground="#707070" Margin="12,8,12.6,7.4"></materialDesign:PackIcon>
+            <materialDesign:PackIcon  Grid.Column="0" Grid.Row="6" Kind="KeyAdd" HorizontalAlignment="Center" VerticalAlignment="Center" Width="33" Height="35"  Foreground="#707070" Margin="12,7.6,12.6,7.8"></materialDesign:PackIcon>
+
+            <materialDesign:PackIcon  Grid.Column="0" Grid.Row="7" Kind="Car" HorizontalAlignment="Center" VerticalAlignment="Center" Width="33" Height="36"  Foreground="#707070" Margin="12,7.2,12.6,7.2"></materialDesign:PackIcon>
+
+            <TextBox x:Name="textBoxName" Grid.Column="1" Grid.Row="1"  HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="23" Foreground="White" materialDesign:HintAssist.Hint="First name" Width="250" Margin="5.4,5.6,0,4.8"/>
+            <TextBox x:Name="textBoxSurname" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="23" Foreground="White" materialDesign:HintAssist.Hint="Last name" Width="250" Margin="5.4,5.2,0,5.2"/>
+            <DatePicker Name="dateTimePicker1" FontSize="23" Foreground="White" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Width="250" Margin="5.4,5.8,0,5.6" materialDesign:HintAssist.Hint="Birthday"></DatePicker>
+            <TextBox x:Name="textBoxNickname" Grid.Column="1" Grid.Row="4" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="23" Foreground="White" materialDesign:HintAssist.Hint="Nickname" Width="250" Margin="5.4,5.4,0,5"/>
+            <PasswordBox x:Name="textBoxPassword" Grid.Column="1" Grid.Row="5" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="23" Foreground="White" materialDesign:HintAssist.Hint="Password" Width="250" Margin="5.4,6,0,5.4"></PasswordBox>
+            <!--<Button BorderBrush="Transparent"  Background="Transparent" Grid.Column="1" Grid.Row="5" Margin="260.4,9,75.6,6.4"  Height="35" Foreground="White">
+                <materialDesign:PackIcon  Grid.Column="0" Grid.Row="6" Kind="Eye" HorizontalAlignment="Center" VerticalAlignment="Center" Width="33" Height="51"  Foreground="#707070"/>
+            </Button>-->
+            <PasswordBox x:Name="textBoxConfirmPass" Grid.Column="1" Grid.Row="6" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="23" Foreground="White" materialDesign:HintAssist.Hint="Confirm password" Width="250" Margin="5.4,5.6,0,5.8"></PasswordBox>
+            <!--<Button x:Name="buttonShowPassword" BorderBrush="Transparent"  Background="Transparent" Grid.Column="1" Grid.Row="5" Margin="260.4,9,75.6,6.4"  Height="35" Foreground="White" Click="ButtonShowPassword_Click">
+                <materialDesign:PackIcon  Grid.Column="0" Grid.Row="6" Kind="Eye" HorizontalAlignment="Center" VerticalAlignment="Center" Width="33" Height="51"  Foreground="#707070"/>
+            </Button>-->
+            <ComboBox Name="comboBoxCarsType" Grid.Row="7" Grid.Column="1" Width="250" Margin="5.4,5.2,0,5.2" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="23" Foreground="White" materialDesign:HintAssist.Hint="Car type" SelectionChanged="comboBoxCarsType_SelectionChanged">
+                <ComboBoxItem>Econom</ComboBoxItem>
+                <ComboBoxItem>Luxury</ComboBoxItem>
+                <ComboBoxItem>Truck</ComboBoxItem>
+            </ComboBox>
+            <TextBox x:Name="textBoxCarName" Grid.Column="1" Grid.Row="8"  HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="23" Foreground="White" materialDesign:HintAssist.Hint="Car name" Width="250" Margin="5.4,5.8,0,4.6"/>
+            <TextBox Name="textBoxCarModel" Grid.Column="1" Grid.Row="9"  HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="23" Foreground="White" materialDesign:HintAssist.Hint="Car model" Width="250" Margin="5.4,5.4,0,5"/>
+            <TextBox x:Name="textBoxCarNumber" Grid.Column="1" Grid.Row="10"  HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="23" Foreground="White" materialDesign:HintAssist.Hint="Car number" Width="250" Margin="5.4,5,0,5.4"/>
+            <Button x:Name="buttonRegistration" Grid.Column="1" Grid.RowSpan="2" VerticalAlignment="Center"  HorizontalAlignment="Left" Background="#FF673AB7" Grid.Row="11" Width="220" Height="45" FontSize="25" Click="ButtonRegistration_Click" Margin="0.4,13.6,0,14.2">Registration</Button>
+
+            <Grid Grid.Row="12" Grid.Column="1" Margin="0.4,21.4,0,4.6" Grid.ColumnSpan="2" Grid.RowSpan="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Label Foreground="#8d9795" Grid.Column="0" Grid.ColumnSpan="2" FontSize="19.5" VerticalAlignment="Center" HorizontalAlignment="Left">Our contacts</Label>
+                <Button HorizontalAlignment="Center" VerticalAlignment="Center" Width="65" Height="50"  Grid.Column="1" BorderBrush="Transparent" Background="Transparent" Hyperlink.Click="ButtonInstagram_Click">
+                    <materialDesign:PackIcon  Grid.Column="1" Kind="Facebook" HorizontalAlignment="Center" VerticalAlignment="Center" Width="33" Height="35" Foreground="#FF673AB7"  ></materialDesign:PackIcon>
+                </Button>
+                <Button x:Name="buttonInstagram" HorizontalAlignment="Center" VerticalAlignment="Center" Width="60" Height="50"  Grid.Column="2" BorderBrush="Transparent" Background="Transparent" Click="buttonInstagram_Click_1">
+                    <materialDesign:PackIcon  Kind="Instagram" HorizontalAlignment="Center" VerticalAlignment="Center" Width="33" Height="35"  Foreground="#FF673AB7"></materialDesign:PackIcon>
+                </Button>
+                <Button x:Name="buttonGooglePlus" HorizontalAlignment="Center" VerticalAlignment="Center" Width="65" Height="50"  Grid.Column="3" BorderBrush="Transparent" Background="Transparent" Click="buttonGooglePlus_Click">
+                    <materialDesign:PackIcon  Grid.Column="3" Kind="GooglePlus" HorizontalAlignment="Center" VerticalAlignment="Center" Width="33" Height="35"  Foreground="#FF673AB7"></materialDesign:PackIcon>
+                </Button>
+
+            </Grid>
+
+        </Grid>
+    </Grid>
+</Window>
