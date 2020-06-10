@@ -136,7 +136,8 @@ namespace TaxiServiceWPF
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"{ex.Message}");
+                WindowForException windowForException = new WindowForException(ex.Message);
+                windowForException.Show();
             }
         }
 

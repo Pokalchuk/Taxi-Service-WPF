@@ -79,7 +79,8 @@ namespace TaxiServiceWPF
                         typeCar = reader.ReadLine();
                         if (textBoxNickname.Text == nickname && textBoxPassword.Password == password)
                         {
-                            MessageBox.Show("Successful login");
+                            WindowForException windowForException = new WindowForException("Successful login");
+                            windowForException.ShowDialog();
                             this.Hide();
                         }
                         else
@@ -118,7 +119,8 @@ namespace TaxiServiceWPF
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                WindowForException windowForException = new WindowForException(ex.Message);
+                windowForException.Show();
             }
         }
     }

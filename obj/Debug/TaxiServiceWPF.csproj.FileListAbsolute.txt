@@ -61,3 +61,5 @@ F:\WPF\TaxiServiceWPF\obj\Debug\User\DetailsArrivalCar.g.cs
 F:\WPF\TaxiServiceWPF\obj\Debug\User\DetailsArrivalCar.baml
 F:\WPF\TaxiServiceWPF\obj\Debug\Taxist\TaxistWorkInfo.g.cs
 F:\WPF\TaxiServiceWPF\obj\Debug\Taxist\TaxistWorkInfo.baml
+F:\WPF\TaxiServiceWPF\obj\Debug\Exception\WindowForException.g.cs
+F:\WPF\TaxiServiceWPF\obj\Debug\Exception\WindowForException.baml

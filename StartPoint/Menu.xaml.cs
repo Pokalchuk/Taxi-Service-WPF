@@ -45,7 +45,6 @@ namespace TaxiServiceWPF
             {
                 LoginUser loginUser = new LoginUser();
                 this.Hide();
-                //this.Close();
                 loginUser.ShowDialog();
                 OrderTaxiForm orderTaxi = new OrderTaxiForm();
                 orderTaxi.ShowDialog();

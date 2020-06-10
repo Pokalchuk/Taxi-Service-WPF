@@ -85,22 +85,10 @@ namespace TaxiServiceWPF
             if(car is EconomCar)
             {
                 LoadImage($"EconomCar");
-                //string selectedFileName = @"pack://application:,,,/Images/EconomCar.jpg";
-                //BitmapImage bitmap = new BitmapImage();
-                //bitmap.BeginInit();
-                //bitmap.UriSource = new Uri(selectedFileName);
-                //bitmap.EndInit();
-                //imageCarType.Source = bitmap;
             }
             else if(car is LuxuryCar)
             {
                 LoadImage($"LuxuryCar");
-                //string selectedFileName = @"pack://application:,,,/Images/LuxuryCar.jpg";
-                //BitmapImage bitmap = new BitmapImage();
-                //bitmap.BeginInit();
-                //bitmap.UriSource = new Uri(selectedFileName);
-                //bitmap.EndInit();
-                //imageCarType.Source = bitmap;
             }
             else if(car is Truck)
             {

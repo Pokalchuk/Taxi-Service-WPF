@@ -2,109 +2,29 @@
 <ArrayOfEconomCar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EconomCar>
     <User>
-      <Name>Irina</Name>
-      <Surname>Vlasenko</Surname>
-      <Street>Mir:42,Entrance:3 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
       <Name>Stepan</Name>
-      <Surname>Vlasenko</Surname>
-      <Street>Volodimira:37,Entrance:4 </Street>
+      <Surname>Mizavich</Surname>
+      <Street>Soborna:5,Entrance:4 </Street>
     </User>
-    <NumberOfSeats>4</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Ostin</Name>
-      <Surname>Pokalchuk</Surname>
-      <Street>Zlota:7,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Irina</Name>
-      <Surname>Gaychuk</Surname>
-      <Street>Ogirkova:2,Entrance:4 </Street>
-    </User>
-    <NumberOfSeats>4</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Viktoria</Name>
-      <Surname>Pokhulyk</Surname>
-      <Street>Vishneva:29,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Roma</Name>
-      <Surname>Vasilevichka</Surname>
-      <Street>Volodimira:34,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>4</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Nadia</Name>
-      <Surname>Gaychuk</Surname>
-      <Street>Omega:14,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
+    <NumberOfSeats>3</NumberOfSeats>
     <IsChildSeat>true</IsChildSeat>
     <IsWheelChair>false</IsWheelChair>
   </EconomCar>
   <EconomCar>
     <User>
       <Name>Petro</Name>
-      <Surname>Kozachok</Surname>
-      <Street>Bohoyavlenska:9,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>3</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Stepan</Name>
-      <Surname>Pokalchuk</Surname>
-      <Street>Yabluneva:39,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>4</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Stepan</Name>
-      <Surname>Sagaidachniy</Surname>
-      <Street>Zlota:19,Entrance:5 </Street>
+      <Surname>Koval</Surname>
+      <Street>Soborna:20,Entrance:1 </Street>
     </User>
     <NumberOfSeats>2</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
+    <IsChildSeat>true</IsChildSeat>
     <IsWheelChair>true</IsWheelChair>
   </EconomCar>
   <EconomCar>
     <User>
-      <Name>Kolia</Name>
-      <Surname>Vlasenko</Surname>
-      <Street>Zlota:43,Entrance:1 </Street>
+      <Name>Artem</Name>
+      <Surname>Vasilevichka</Surname>
+      <Street>Omega:11,Entrance:2 </Street>
     </User>
     <NumberOfSeats>1</NumberOfSeats>
     <IsChildSeat>true</IsChildSeat>
@@ -112,39 +32,79 @@
   </EconomCar>
   <EconomCar>
     <User>
-      <Name>Fedor</Name>
-      <Surname>Pokhulyk</Surname>
-      <Street>Yabluneva:9,Entrance:2 </Street>
+      <Name>Irina</Name>
+      <Surname>Gaychuk</Surname>
+      <Street>Shevchenka:43,Entrance:3 </Street>
     </User>
     <NumberOfSeats>4</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Vasil</Name>
+      <Surname>Galkin</Surname>
+      <Street>Mir:43,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
     <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Igor</Name>
+      <Surname>Pokalchuk</Surname>
+      <Street>Oleni Teligi:1,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
     <IsWheelChair>false</IsWheelChair>
   </EconomCar>
   <EconomCar>
     <User>
       <Name>Artem</Name>
-      <Surname>Sagaidachniy</Surname>
-      <Street>Sagaychuka:39,Entrance:2 </Street>
+      <Surname>Porobko</Surname>
+      <Street>Romanovicha:11,Entrance:2 </Street>
     </User>
-    <NumberOfSeats>3</NumberOfSeats>
+    <NumberOfSeats>4</NumberOfSeats>
     <IsChildSeat>true</IsChildSeat>
     <IsWheelChair>true</IsWheelChair>
   </EconomCar>
   <EconomCar>
     <User>
-      <Name>Roma</Name>
-      <Surname>Mizavich</Surname>
-      <Street>Yabluneva:19,Entrance:6 </Street>
+      <Name>Arthur</Name>
+      <Surname>Porobko</Surname>
+      <Street>Soborna:18,Entrance:4 </Street>
     </User>
     <NumberOfSeats>1</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
   </EconomCar>
   <EconomCar>
     <User>
-      <Name>Roma</Name>
-      <Surname>Vasilevichka</Surname>
-      <Street>Yabluneva:9,Entrance:4 </Street>
+      <Name>Fedor</Name>
+      <Surname>Koval</Surname>
+      <Street>Yabluneva:35,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>4</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Petro</Name>
+      <Surname>Vilenskiy</Surname>
+      <Street>Zlota:12,Entrance:6 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Fedor</Name>
+      <Surname>Porobko</Surname>
+      <Street>Mir:25,Entrance:1 </Street>
     </User>
     <NumberOfSeats>3</NumberOfSeats>
     <IsChildSeat>false</IsChildSeat>
@@ -152,39 +112,119 @@
   </EconomCar>
   <EconomCar>
     <User>
-      <Name>Viktoria</Name>
-      <Surname>Sagaidachniy</Surname>
-      <Street>Soborna:37,Entrance:5 </Street>
+      <Name>Ivan</Name>
+      <Surname>Galkin</Surname>
+      <Street>Soborna:19,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>4</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Petro</Name>
+      <Surname>Samsonov</Surname>
+      <Street>Soborna:43,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>3</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Ostin</Name>
+      <Surname>Mizavich</Surname>
+      <Street>Soborna:2,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>3</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Petro</Name>
+      <Surname>Parhomenko</Surname>
+      <Street>Sagaychuka:20,Entrance:6 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Vasil</Name>
+      <Surname>Pokalchuk</Surname>
+      <Street>Romanovicha:9,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>3</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Arthur</Name>
+      <Surname>Melnyk</Surname>
+      <Street>Bohoyavlenska:5,Entrance:1 </Street>
     </User>
     <NumberOfSeats>2</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Ostin</Name>
+      <Surname>Koval</Surname>
+      <Street>Zlota:5,Entrance:6 </Street>
+    </User>
+    <NumberOfSeats>3</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Roma</Name>
+      <Surname>Porobko</Surname>
+      <Street>Yabluneva:14,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>3</NumberOfSeats>
     <IsChildSeat>false</IsChildSeat>
     <IsWheelChair>true</IsWheelChair>
   </EconomCar>
   <EconomCar>
     <User>
       <Name>Vitaliy</Name>
-      <Surname>Parhomenko</Surname>
-      <Street>Shevchenka:43,Entrance:2 </Street>
+      <Surname>Pokalchuk</Surname>
+      <Street>Sagaychuka:19,Entrance:2 </Street>
+    </User>
+    <NumberOfSeats>4</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Nadia</Name>
+      <Surname>Pokhulyk</Surname>
+      <Street>Zlota:34,Entrance:5 </Street>
     </User>
     <NumberOfSeats>3</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
+    <IsChildSeat>true</IsChildSeat>
     <IsWheelChair>true</IsWheelChair>
   </EconomCar>
   <EconomCar>
     <User>
-      <Name>Ostin</Name>
-      <Surname>Samsonov</Surname>
-      <Street>Omega:13,Entrance:2 </Street>
+      <Name>Stepan</Name>
+      <Surname>Parhomenko</Surname>
+      <Street>Ogirkova:30,Entrance:1 </Street>
     </User>
-    <NumberOfSeats>3</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
+    <NumberOfSeats>4</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
     <IsWheelChair>true</IsWheelChair>
   </EconomCar>
   <EconomCar>
     <User>
       <Name>Irina</Name>
-      <Surname>Galkin</Surname>
-      <Street>Zlota:41,Entrance:2 </Street>
+      <Surname>Porobko</Surname>
+      <Street>Ogirkova:40,Entrance:2 </Street>
     </User>
     <NumberOfSeats>1</NumberOfSeats>
     <IsChildSeat>true</IsChildSeat>
@@ -192,20 +232,80 @@
   </EconomCar>
   <EconomCar>
     <User>
-      <Name>Artem</Name>
+      <Name>Vasil</Name>
+      <Surname>Parhomenko</Surname>
+      <Street>Vishneva:40,Entrance:6 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Igor</Name>
+      <Surname>Koval</Surname>
+      <Street>Vishneva:8,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Vasil</Name>
+      <Surname>Koval</Surname>
+      <Street>Moskovskaya:4,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>3</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Vasil</Name>
+      <Surname>Gaychuk</Surname>
+      <Street>Shevchenka:42,Entrance:2 </Street>
+    </User>
+    <NumberOfSeats>4</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Viktoria</Name>
+      <Surname>Kozachok</Surname>
+      <Street>Moskovskaya:17,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Stepan</Name>
+      <Surname>Porobko</Surname>
+      <Street>Mir:1,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Stepan</Name>
       <Surname>Vasilevichka</Surname>
+      <Street>Sagaychuka:44,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Ivan</Name>
+      <Surname>Porobko</Surname>
       <Street>Polovtsia:24,Entrance:5 </Street>
     </User>
-    <NumberOfSeats>4</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Roma</Name>
-      <Surname>Vlasenko</Surname>
-      <Street>Volodimira:26,Entrance:5 </Street>
-    </User>
     <NumberOfSeats>3</NumberOfSeats>
     <IsChildSeat>false</IsChildSeat>
     <IsWheelChair>true</IsWheelChair>
@@ -213,248 +313,138 @@
   <EconomCar>
     <User>
       <Name>Irina</Name>
+      <Surname>Pokalchuk</Surname>
+      <Street>Polovtsia:17,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>3</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Stepan</Name>
       <Surname>Porobko</Surname>
-      <Street>Polovtsia:17,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Petro</Name>
-      <Surname>Mizavich</Surname>
-      <Street>Polovtsia:18,Entrance:3 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Roma</Name>
-      <Surname>Kozachok</Surname>
-      <Street>Polovtsia:27,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Igor</Name>
-      <Surname>Vlasenko</Surname>
-      <Street>Moskovskaya:7,Entrance:4 </Street>
-    </User>
-    <NumberOfSeats>3</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Fedor</Name>
-      <Surname>Parhomenko</Surname>
-      <Street>Sagaychuka:43,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>4</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Ostin</Name>
-      <Surname>Galkin</Surname>
-      <Street>Volodimira:5,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>4</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Petro</Name>
-      <Surname>Melnyk</Surname>
-      <Street>Volodimira:13,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>3</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Ivan</Name>
-      <Surname>Mizavich</Surname>
-      <Street>Vishneva:7,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>4</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Fedor</Name>
-      <Surname>Mizavich</Surname>
-      <Street>Romanovicha:22,Entrance:1 </Street>
+      <Street>Polovtsia:28,Entrance:1 </Street>
     </User>
     <NumberOfSeats>2</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Fedor</Name>
-      <Surname>Vlasenko</Surname>
-      <Street>Bohoyavlenska:33,Entrance:2 </Street>
-    </User>
-    <NumberOfSeats>4</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Ivan</Name>
-      <Surname>Vasilevichka</Surname>
-      <Street>Moskovskaya:3,Entrance:2 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
+    <IsChildSeat>true</IsChildSeat>
     <IsWheelChair>true</IsWheelChair>
   </EconomCar>
   <EconomCar>
     <User>
       <Name>Vitaliy</Name>
-      <Surname>Parhomenko</Surname>
-      <Street>Polovtsia:20,Entrance:4 </Street>
+      <Surname>Melnyk</Surname>
+      <Street>Vishneva:28,Entrance:3 </Street>
     </User>
-    <NumberOfSeats>4</NumberOfSeats>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Arthur</Name>
+      <Surname>Porobko</Surname>
+      <Street>Romanovicha:35,Entrance:6 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
     <IsChildSeat>true</IsChildSeat>
     <IsWheelChair>false</IsWheelChair>
   </EconomCar>
   <EconomCar>
     <User>
-      <Name>Ostin</Name>
-      <Surname>Gaychuk</Surname>
-      <Street>Sagaychuka:31,Entrance:2 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Vasil</Name>
+      <Name>Ivan</Name>
       <Surname>Vilenskiy</Surname>
-      <Street>Oleni Teligi:29,Entrance:3 </Street>
+      <Street>Vishneva:26,Entrance:3 </Street>
     </User>
-    <NumberOfSeats>4</NumberOfSeats>
+    <NumberOfSeats>1</NumberOfSeats>
     <IsChildSeat>true</IsChildSeat>
     <IsWheelChair>true</IsWheelChair>
   </EconomCar>
   <EconomCar>
     <User>
       <Name>Artem</Name>
-      <Surname>Mizavich</Surname>
-      <Street>Omega:44,Entrance:1 </Street>
+      <Surname>Sagaidachniy</Surname>
+      <Street>Moskovskaya:33,Entrance:5 </Street>
     </User>
-    <NumberOfSeats>3</NumberOfSeats>
+    <NumberOfSeats>2</NumberOfSeats>
     <IsChildSeat>true</IsChildSeat>
     <IsWheelChair>false</IsWheelChair>
   </EconomCar>
   <EconomCar>
     <User>
-      <Name>Igor</Name>
-      <Surname>Koval</Surname>
-      <Street>Omega:36,Entrance:4 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
       <Name>Vitaliy</Name>
-      <Surname>Parhomenko</Surname>
-      <Street>Polovtsia:40,Entrance:2 </Street>
+      <Surname>Vlasenko</Surname>
+      <Street>Romanovicha:11,Entrance:6 </Street>
     </User>
-    <NumberOfSeats>4</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Arthur</Name>
-      <Surname>Vilenskiy</Surname>
-      <Street>Volodimira:3,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
+    <NumberOfSeats>1</NumberOfSeats>
     <IsChildSeat>false</IsChildSeat>
     <IsWheelChair>true</IsWheelChair>
   </EconomCar>
   <EconomCar>
     <User>
       <Name>Viktoria</Name>
-      <Surname>Porobko</Surname>
-      <Street>Oleni Teligi:24,Entrance:4 </Street>
+      <Surname>Samsonov</Surname>
+      <Street>Soborna:29,Entrance:1 </Street>
     </User>
-    <NumberOfSeats>1</NumberOfSeats>
+    <NumberOfSeats>4</NumberOfSeats>
     <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Vitaliy</Name>
+      <Surname>Parhomenko</Surname>
+      <Street>Sagaychuka:43,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>3</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Vitaliy</Name>
+      <Surname>Parhomenko</Surname>
+      <Street>Shevchenka:27,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>3</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
     <IsWheelChair>true</IsWheelChair>
   </EconomCar>
   <EconomCar>
     <User>
-      <Name>Vasil</Name>
-      <Surname>Sagaidachniy</Surname>
-      <Street>Ogirkova:10,Entrance:1 </Street>
+      <Name>Petro</Name>
+      <Surname>Vlasenko</Surname>
+      <Street>Soborna:29,Entrance:2 </Street>
     </User>
-    <NumberOfSeats>4</NumberOfSeats>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Ostin</Name>
+      <Surname>Kozachok</Surname>
+      <Street>Bohoyavlenska:43,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
     <IsChildSeat>false</IsChildSeat>
     <IsWheelChair>false</IsWheelChair>
   </EconomCar>
   <EconomCar>
     <User>
       <Name>Artem</Name>
-      <Surname>Sagaidachniy</Surname>
-      <Street>Volodimira:15,Entrance:4 </Street>
-    </User>
-    <NumberOfSeats>4</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Ostin</Name>
-      <Surname>Kozachok</Surname>
-      <Street>Moskovskaya:43,Entrance:5 </Street>
+      <Surname>Pokhulyk</Surname>
+      <Street>Soborna:41,Entrance:2 </Street>
     </User>
     <NumberOfSeats>3</NumberOfSeats>
     <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Vitaliy</Name>
-      <Surname>Sagaidachniy</Surname>
-      <Street>Zlota:42,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>3</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
     <IsWheelChair>false</IsWheelChair>
   </EconomCar>
   <EconomCar>
     <User>
-      <Name>Vasil</Name>
-      <Surname>Vlasenko</Surname>
-      <Street>Polovtsia:17,Entrance:4 </Street>
-    </User>
-    <NumberOfSeats>4</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Nadia</Name>
-      <Surname>Vasilevichka</Surname>
-      <Street>Oleni Teligi:24,Entrance:4 </Street>
+      <Name>Petro</Name>
+      <Surname>Samsonov</Surname>
+      <Street>Sagaychuka:28,Entrance:3 </Street>
     </User>
     <NumberOfSeats>1</NumberOfSeats>
     <IsChildSeat>false</IsChildSeat>
@@ -462,49 +452,29 @@
   </EconomCar>
   <EconomCar>
     <User>
-      <Name>Ostin</Name>
-      <Surname>Parhomenko</Surname>
-      <Street>Sagaychuka:16,Entrance:1 </Street>
+      <Name>Nadia</Name>
+      <Surname>Kozachok</Surname>
+      <Street>Vishneva:29,Entrance:1 </Street>
     </User>
-    <NumberOfSeats>3</NumberOfSeats>
+    <NumberOfSeats>4</NumberOfSeats>
     <IsChildSeat>true</IsChildSeat>
     <IsWheelChair>true</IsWheelChair>
   </EconomCar>
   <EconomCar>
     <User>
-      <Name>Irina</Name>
-      <Surname>Kozachok</Surname>
-      <Street>Soborna:29,Entrance:6 </Street>
+      <Name>Viktoria</Name>
+      <Surname>Porobko</Surname>
+      <Street>Vishneva:37,Entrance:4 </Street>
     </User>
     <NumberOfSeats>4</NumberOfSeats>
     <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
+    <IsWheelChair>true</IsWheelChair>
   </EconomCar>
   <EconomCar>
     <User>
-      <Name>Igor</Name>
-      <Surname>Melnyk</Surname>
-      <Street>Oleni Teligi:17,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>3</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Igor</Name>
-      <Surname>Gaychuk</Surname>
-      <Street>Volodimira:18,Entrance:2 </Street>
-    </User>
-    <NumberOfSeats>4</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Igor</Name>
-      <Surname>Kozachok</Surname>
-      <Street>Volodimira:34,Entrance:4 </Street>
+      <Name>Petro</Name>
+      <Surname>Sagaidachniy</Surname>
+      <Street>Polovtsia:7,Entrance:4 </Street>
     </User>
     <NumberOfSeats>2</NumberOfSeats>
     <IsChildSeat>false</IsChildSeat>
@@ -512,39 +482,19 @@
   </EconomCar>
   <EconomCar>
     <User>
-      <Name>Irina</Name>
-      <Surname>Samsonov</Surname>
-      <Street>Volodimira:31,Entrance:6 </Street>
+      <Name>Petro</Name>
+      <Surname>Vilenskiy</Surname>
+      <Street>Zlota:41,Entrance:3 </Street>
     </User>
-    <NumberOfSeats>3</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Nadia</Name>
-      <Surname>Koval</Surname>
-      <Street>Zlota:37,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Vasil</Name>
-      <Surname>Galkin</Surname>
-      <Street>Soborna:42,Entrance:3 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
+    <NumberOfSeats>4</NumberOfSeats>
     <IsChildSeat>true</IsChildSeat>
     <IsWheelChair>false</IsWheelChair>
   </EconomCar>
   <EconomCar>
     <User>
-      <Name>Artem</Name>
-      <Surname>Vasilevichka</Surname>
-      <Street>Mir:3,Entrance:2 </Street>
+      <Name>Kolia</Name>
+      <Surname>Gaychuk</Surname>
+      <Street>Soborna:27,Entrance:3 </Street>
     </User>
     <NumberOfSeats>1</NumberOfSeats>
     <IsChildSeat>false</IsChildSeat>
@@ -553,8 +503,38 @@
   <EconomCar>
     <User>
       <Name>Stepan</Name>
+      <Surname>Samsonov</Surname>
+      <Street>Polovtsia:34,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Nadia</Name>
+      <Surname>Mizavich</Surname>
+      <Street>Oleni Teligi:6,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>3</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Viktoria</Name>
+      <Surname>Pokhulyk</Surname>
+      <Street>Moskovskaya:26,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>4</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Ivan</Name>
       <Surname>Vasilevichka</Surname>
-      <Street>Oleni Teligi:25,Entrance:6 </Street>
+      <Street>Moskovskaya:17,Entrance:6 </Street>
     </User>
     <NumberOfSeats>3</NumberOfSeats>
     <IsChildSeat>true</IsChildSeat>
@@ -562,11 +542,341 @@
   </EconomCar>
   <EconomCar>
     <User>
+      <Name>Ivan</Name>
+      <Surname>Melnyk</Surname>
+      <Street>Ogirkova:16,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Ivan</Name>
+      <Surname>Vlasenko</Surname>
+      <Street>Polovtsia:8,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
       <Name>Arthur</Name>
-      <Surname>Koval</Surname>
-      <Street>Soborna:13,Entrance:6 </Street>
+      <Surname>Kozachok</Surname>
+      <Street>Mir:8,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Ivan</Name>
+      <Surname>Gaychuk</Surname>
+      <Street>Bohoyavlenska:10,Entrance:2 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Nadia</Name>
+      <Surname>Mizavich</Surname>
+      <Street>Yabluneva:35,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Irina</Name>
+      <Surname>Parhomenko</Surname>
+      <Street>Moskovskaya:23,Entrance:1 </Street>
     </User>
     <NumberOfSeats>4</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Irina</Name>
+      <Surname>Melnyk</Surname>
+      <Street>Sagaychuka:31,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Vitaliy</Name>
+      <Surname>Vilenskiy</Surname>
+      <Street>Oleni Teligi:33,Entrance:2 </Street>
+    </User>
+    <NumberOfSeats>4</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Igor</Name>
+      <Surname>Kozachok</Surname>
+      <Street>Mir:14,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Artem</Name>
+      <Surname>Galkin</Surname>
+      <Street>Bohoyavlenska:23,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Stepan</Name>
+      <Surname>Sagaidachniy</Surname>
+      <Street>Bohoyavlenska:3,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>3</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Fedor</Name>
+      <Surname>Parhomenko</Surname>
+      <Street>Soborna:31,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>4</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Viktoria</Name>
+      <Surname>Vasilevichka</Surname>
+      <Street>Omega:4,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Kolia</Name>
+      <Surname>Galkin</Surname>
+      <Street>Yabluneva:2,Entrance:2 </Street>
+    </User>
+    <NumberOfSeats>3</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Artem</Name>
+      <Surname>Melnyk</Surname>
+      <Street>Oleni Teligi:1,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Vasil</Name>
+      <Surname>Vlasenko</Surname>
+      <Street>Moskovskaya:9,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Kolia</Name>
+      <Surname>Vasilevichka</Surname>
+      <Street>Vishneva:21,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>4</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Vasil</Name>
+      <Surname>Pokalchuk</Surname>
+      <Street>Yabluneva:1,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Ivan</Name>
+      <Surname>Vilenskiy</Surname>
+      <Street>Sagaychuka:1,Entrance:2 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Petro</Name>
+      <Surname>Pokalchuk</Surname>
+      <Street>Omega:37,Entrance:6 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Stepan</Name>
+      <Surname>Melnyk</Surname>
+      <Street>Bohoyavlenska:13,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Vitaliy</Name>
+      <Surname>Mizavich</Surname>
+      <Street>Shevchenka:14,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Arthur</Name>
+      <Surname>Kozachok</Surname>
+      <Street>Ogirkova:30,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Igor</Name>
+      <Surname>Samsonov</Surname>
+      <Street>Polovtsia:42,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>3</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Artem</Name>
+      <Surname>Melnyk</Surname>
+      <Street>Romanovicha:16,Entrance:6 </Street>
+    </User>
+    <NumberOfSeats>4</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Vitaliy</Name>
+      <Surname>Gaychuk</Surname>
+      <Street>Oleni Teligi:33,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>3</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Stepan</Name>
+      <Surname>Samsonov</Surname>
+      <Street>Volodimira:13,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>3</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Igor</Name>
+      <Surname>Sagaidachniy</Surname>
+      <Street>Romanovicha:2,Entrance:2 </Street>
+    </User>
+    <NumberOfSeats>3</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Petro</Name>
+      <Surname>Koval</Surname>
+      <Street>Mir:16,Entrance:6 </Street>
+    </User>
+    <NumberOfSeats>3</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Roma</Name>
+      <Surname>Koval</Surname>
+      <Street>Soborna:42,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>3</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Igor</Name>
+      <Surname>Vasilevichka</Surname>
+      <Street>Omega:19,Entrance:2 </Street>
+    </User>
+    <NumberOfSeats>4</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Vitaliy</Name>
+      <Surname>Samsonov</Surname>
+      <Street>Polovtsia:19,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>4</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Fedor</Name>
+      <Surname>Samsonov</Surname>
+      <Street>Moskovskaya:33,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>3</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Petro</Name>
+      <Surname>Vilenskiy</Surname>
+      <Street>Romanovicha:29,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>3</NumberOfSeats>
     <IsChildSeat>true</IsChildSeat>
     <IsWheelChair>true</IsWheelChair>
   </EconomCar>
@@ -574,397 +884,27 @@
     <User>
       <Name>Nadia</Name>
       <Surname>Pokalchuk</Surname>
-      <Street>Vishneva:34,Entrance:5 </Street>
+      <Street>Sagaychuka:29,Entrance:2 </Street>
     </User>
-    <NumberOfSeats>3</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
   </EconomCar>
   <EconomCar>
     <User>
       <Name>Kolia</Name>
-      <Surname>Vilenskiy</Surname>
-      <Street>Mir:33,Entrance:4 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Igor</Name>
-      <Surname>Porobko</Surname>
-      <Street>Yabluneva:15,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Viktoria</Name>
-      <Surname>Parhomenko</Surname>
-      <Street>Romanovicha:44,Entrance:4 </Street>
-    </User>
-    <NumberOfSeats>3</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Nadia</Name>
-      <Surname>Koval</Surname>
-      <Street>Oleni Teligi:24,Entrance:4 </Street>
-    </User>
-    <NumberOfSeats>3</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Stepan</Name>
-      <Surname>Kozachok</Surname>
-      <Street>Vishneva:32,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Irina</Name>
-      <Surname>Pokalchuk</Surname>
-      <Street>Sagaychuka:40,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Stepan</Name>
-      <Surname>Vilenskiy</Surname>
-      <Street>Mir:10,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Vitaliy</Name>
-      <Surname>Melnyk</Surname>
-      <Street>Romanovicha:19,Entrance:4 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Arthur</Name>
-      <Surname>Vilenskiy</Surname>
-      <Street>Shevchenka:35,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Irina</Name>
-      <Surname>Parhomenko</Surname>
-      <Street>Soborna:30,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Irina</Name>
-      <Surname>Vlasenko</Surname>
-      <Street>Moskovskaya:5,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>3</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Ostin</Name>
-      <Surname>Koval</Surname>
-      <Street>Yabluneva:26,Entrance:3 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Igor</Name>
-      <Surname>Samsonov</Surname>
-      <Street>Sagaychuka:26,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Petro</Name>
-      <Surname>Sagaidachniy</Surname>
-      <Street>Moskovskaya:14,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>3</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Roma</Name>
-      <Surname>Gaychuk</Surname>
-      <Street>Soborna:39,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Nadia</Name>
-      <Surname>Kozachok</Surname>
-      <Street>Bohoyavlenska:29,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>4</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Vitaliy</Name>
-      <Surname>Melnyk</Surname>
-      <Street>Soborna:8,Entrance:3 </Street>
-    </User>
-    <NumberOfSeats>3</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Irina</Name>
-      <Surname>Gaychuk</Surname>
-      <Street>Bohoyavlenska:22,Entrance:2 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Viktoria</Name>
-      <Surname>Samsonov</Surname>
-      <Street>Zlota:4,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Petro</Name>
-      <Surname>Melnyk</Surname>
-      <Street>Volodimira:42,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>4</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Stepan</Name>
-      <Surname>Kozachok</Surname>
-      <Street>Sagaychuka:39,Entrance:4 </Street>
-    </User>
-    <NumberOfSeats>3</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Vitaliy</Name>
-      <Surname>Vlasenko</Surname>
-      <Street>Volodimira:9,Entrance:4 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Irina</Name>
-      <Surname>Pokhulyk</Surname>
-      <Street>Zlota:32,Entrance:4 </Street>
-    </User>
-    <NumberOfSeats>4</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Ostin</Name>
-      <Surname>Galkin</Surname>
-      <Street>Romanovicha:4,Entrance:4 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Kolia</Name>
-      <Surname>Porobko</Surname>
-      <Street>Ogirkova:6,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>4</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Ostin</Name>
-      <Surname>Parhomenko</Surname>
-      <Street>Zlota:37,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Roma</Name>
-      <Surname>Vilenskiy</Surname>
-      <Street>Bohoyavlenska:34,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Igor</Name>
-      <Surname>Gaychuk</Surname>
-      <Street>Shevchenka:24,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>4</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Igor</Name>
-      <Surname>Koval</Surname>
-      <Street>Zlota:43,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>4</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Vasil</Name>
-      <Surname>Vlasenko</Surname>
-      <Street>Mir:24,Entrance:4 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Igor</Name>
-      <Surname>Galkin</Surname>
-      <Street>Oleni Teligi:19,Entrance:2 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Vitaliy</Name>
-      <Surname>Gaychuk</Surname>
-      <Street>Romanovicha:1,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>4</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Irina</Name>
-      <Surname>Pokhulyk</Surname>
-      <Street>Sagaychuka:22,Entrance:3 </Street>
-    </User>
-    <NumberOfSeats>4</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Ostin</Name>
-      <Surname>Vlasenko</Surname>
-      <Street>Omega:36,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Roma</Name>
-      <Surname>Samsonov</Surname>
-      <Street>Soborna:19,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>false</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Kolia</Name>
-      <Surname>Kozachok</Surname>
-      <Street>Vishneva:9,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>3</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Vitaliy</Name>
-      <Surname>Sagaidachniy</Surname>
-      <Street>Oleni Teligi:12,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsChildSeat>true</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Fedor</Name>
-      <Surname>Gaychuk</Surname>
-      <Street>Polovtsia:26,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
-  </EconomCar>
-  <EconomCar>
-    <User>
-      <Name>Petro</Name>
       <Surname>Mizavich</Surname>
-      <Street>Shevchenka:19,Entrance:3 </Street>
+      <Street>Omega:19,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>4</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Viktoria</Name>
+      <Surname>Gaychuk</Surname>
+      <Street>Volodimira:1,Entrance:6 </Street>
     </User>
     <NumberOfSeats>1</NumberOfSeats>
     <IsChildSeat>false</IsChildSeat>
@@ -972,9 +912,69 @@
   </EconomCar>
   <EconomCar>
     <User>
-      <Name>Kolia</Name>
+      <Name>Artem</Name>
       <Surname>Vasilevichka</Surname>
-      <Street>Volodimira:24,Entrance:3 </Street>
+      <Street>Shevchenka:1,Entrance:2 </Street>
+    </User>
+    <NumberOfSeats>3</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Stepan</Name>
+      <Surname>Samsonov</Surname>
+      <Street>Bohoyavlenska:20,Entrance:6 </Street>
+    </User>
+    <NumberOfSeats>3</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Igor</Name>
+      <Surname>Galkin</Surname>
+      <Street>Romanovicha:30,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Irina</Name>
+      <Surname>Gaychuk</Surname>
+      <Street>Oleni Teligi:20,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>4</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Igor</Name>
+      <Surname>Vlasenko</Surname>
+      <Street>Yabluneva:7,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>4</NumberOfSeats>
+    <IsChildSeat>false</IsChildSeat>
+    <IsWheelChair>false</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Stepan</Name>
+      <Surname>Gaychuk</Surname>
+      <Street>Moskovskaya:29,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsChildSeat>true</IsChildSeat>
+    <IsWheelChair>true</IsWheelChair>
+  </EconomCar>
+  <EconomCar>
+    <User>
+      <Name>Stepan</Name>
+      <Surname>Porobko</Surname>
+      <Street>Moskovskaya:34,Entrance:1 </Street>
     </User>
     <NumberOfSeats>1</NumberOfSeats>
     <IsChildSeat>true</IsChildSeat>
@@ -982,21 +982,21 @@
   </EconomCar>
   <EconomCar>
     <User>
-      <Name>Irina</Name>
-      <Surname>Samsonov</Surname>
-      <Street>Volodimira:26,Entrance:3 </Street>
+      <Name>Vitaliy</Name>
+      <Surname>Vilenskiy</Surname>
+      <Street>Romanovicha:21,Entrance:4 </Street>
     </User>
-    <NumberOfSeats>4</NumberOfSeats>
+    <NumberOfSeats>2</NumberOfSeats>
     <IsChildSeat>false</IsChildSeat>
-    <IsWheelChair>true</IsWheelChair>
+    <IsWheelChair>false</IsWheelChair>
   </EconomCar>
   <EconomCar>
     <User>
-      <Name>Vasil</Name>
-      <Surname>Vlasenko</Surname>
-      <Street>Soborna:22,Entrance:3 </Street>
+      <Name>Kolia</Name>
+      <Surname>Koval</Surname>
+      <Street>Mir:34,Entrance:5 </Street>
     </User>
-    <NumberOfSeats>3</NumberOfSeats>
+    <NumberOfSeats>2</NumberOfSeats>
     <IsChildSeat>false</IsChildSeat>
     <IsWheelChair>true</IsWheelChair>
   </EconomCar>

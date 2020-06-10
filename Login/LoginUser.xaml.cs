@@ -24,7 +24,7 @@ namespace TaxiServiceWPF
         public LoginUser()
         {
             InitializeComponent();
-            
+
         }
 
         private void buttonClose_Click(object sender, RoutedEventArgs e)
@@ -56,7 +56,7 @@ namespace TaxiServiceWPF
         private void buttonClose_Click_1(object sender, RoutedEventArgs e)
         {
             Environment.Exit(0);
-            
+
         }
 
         private void ButtonLogin_Click(object sender, RoutedEventArgs e)
@@ -81,7 +81,8 @@ namespace TaxiServiceWPF
                         string password = reader.ReadLine();
                         if (textBoxNickname.Text == nickname && textBoxPassword.Password == password)
                         {
-                            MessageBox.Show("Successful login");
+                            WindowForException windowForException = new WindowForException("Successful login");
+                            windowForException.ShowDialog();
                             this.Close();
                         }
                         else
@@ -91,9 +92,10 @@ namespace TaxiServiceWPF
                     }
                 }
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                WindowForException windowForException = new WindowForException(ex.Message);
+                windowForException.Show();
             }
         }
     }

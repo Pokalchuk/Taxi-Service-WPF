@@ -45,6 +45,11 @@ namespace TaxiServiceWPF
                     throw new Exception("Some field is empty");
                 }
 
+                if(comboBoxCarsType.SelectedIndex==-1)
+                {
+                    throw new Exception("Make choice of car type");
+                }
+
                 if (comboBoxCarsType.Text=="Econom")
                 {
                     UserEconomSettings economSettings = new UserEconomSettings();
@@ -76,7 +81,8 @@ namespace TaxiServiceWPF
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                WindowForException windowForException = new WindowForException(ex.Message);
+                windowForException.Show();
             }
         }
     }
