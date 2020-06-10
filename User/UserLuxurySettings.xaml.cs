@@ -36,11 +36,7 @@ namespace TaxiServiceWPF
         private void buttonFind_Click(object sender, RoutedEventArgs e)
         {
             List<LuxuryCar> luxuryCars = new List<LuxuryCar>();
-            XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<LuxuryCar>));
-            using (Stream stream = File.OpenRead(@"..\..\XML\LuxuryCars.xml"))
-            {
-                luxuryCars = (List<LuxuryCar>)xmlSerializer.Deserialize(stream);
-            }
+            WorkingWithXML.DeserializeLuxuryBase(ref luxuryCars, @"..\..\XML\LuxuryCars.xml");
 
             luxuryCar = new LuxuryCar();
             luxuryCar.IsTv = Convert.ToBoolean(checkBoxTv.IsChecked);

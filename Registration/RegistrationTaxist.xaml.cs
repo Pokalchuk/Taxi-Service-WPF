@@ -104,28 +104,15 @@ namespace TaxiServiceWPF
 
                 if (comboBoxCarsType.Text == "Econom")
                 {
-                    XmlSerializer xmlSerializerCar = new XmlSerializer(typeof(EconomCar));
-                    using (Stream stream = File.Create($@"..\..\XML\TaxistsWithCars\{taxist.Nickname}.xml"))
-                    {
-                        xmlSerializerCar.Serialize(stream, ((EconomCar)car));
-                    }
-
+                    WorkingWithXML.SerializeEconomCar(ref car, taxist.Nickname);
                 }
                 else if (comboBoxCarsType.Text == "Luxury")
                 {
-                    XmlSerializer xmlSerializerCar = new XmlSerializer(typeof(LuxuryCar));
-                    using (Stream stream = File.Create($@"..\..\XML\TaxistsWithCars\{taxist.Nickname}.xml"))
-                    {
-                        xmlSerializerCar.Serialize(stream, ((LuxuryCar)car));
-                    }
+                    WorkingWithXML.SerializeLuxuryCar(ref car, taxist.Nickname);
                 }
                 else if (comboBoxCarsType.Text == "Truck")
                 {
-                    XmlSerializer xmlSerializerCar = new XmlSerializer(typeof(Truck));
-                    using (Stream stream = File.Create($@"..\..\XML\TaxistsWithCars\{taxist.Nickname}.xml"))
-                    {
-                        xmlSerializerCar.Serialize(stream, ((Truck)car));
-                    }
+                    WorkingWithXML.SerializeTruck(ref car, taxist.Nickname);
                 }
                 comboBoxCarsType.IsEnabled = false;
 

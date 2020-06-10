@@ -10,7 +10,7 @@
   <CarName>t</CarName>
   <CarModel>t</CarModel>
   <CarNumber>t</CarNumber>
-  <NumberOfSeats>1</NumberOfSeats>
+  <NumberOfSeats>2</NumberOfSeats>
   <KilogramsCargo>0</KilogramsCargo>
-  <MaxKilogramsOfCargo>5700</MaxKilogramsOfCargo>
+  <MaxKilogramsOfCargo>5000</MaxKilogramsOfCargo>
 </Truck>

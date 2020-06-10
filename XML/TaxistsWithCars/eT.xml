@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<EconomCar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <taxist>
+    <Name>eT</Name>
+    <Surname>eT</Surname>
+    <IsWorking>false</IsWorking>
+    <Nickname>eT</Nickname>
+    <Password>eT</Password>
+  </taxist>
+  <CarName>eT</CarName>
+  <CarModel>eT</CarModel>
+  <CarNumber>eT</CarNumber>
+  <NumberOfSeats>4</NumberOfSeats>
+  <IsChildSeat>true</IsChildSeat>
+  <IsWheelChair>true</IsWheelChair>
+</EconomCar>

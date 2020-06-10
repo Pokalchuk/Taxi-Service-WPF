@@ -38,16 +38,12 @@ namespace TaxiServiceWPF
         {
             try
             {
-                if (int.Parse(tbMaxKilogramsCargo.Text) > 10000 || int.Parse(tbMaxKilogramsCargo.Text) < 100)
+                if (int.Parse(tbMaxKilogramsCargo.Text) > 10000 || int.Parse(tbMaxKilogramsCargo.Text) < 100 || string.IsNullOrEmpty(tbMaxKilogramsCargo.Text))
                 {
-                    throw new Exception("Kilograms of cargo must me more than 100 and less than 10000\nPlease, change the value");
+                    throw new Exception("Kilograms of cargo must be\nmore than 100 and less than 10000\nPlease, change the value");
                 }
                 List<Truck> trucks = new List<Truck>();
-                XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<Truck>));
-                using (Stream stream = File.OpenRead(@"..\..\XML\Trucks.xml"))
-                {
-                    trucks = (List<Truck>)xmlSerializer.Deserialize(stream);
-                }
+                WorkingWithXML.DeserializeTruckBase(ref trucks, @"..\..\XML\Trucks.xml");
                 truck = new Truck();
                 truck.KilogramsCargo = Convert.ToInt32(tbMaxKilogramsCargo.Text);
                 truck.NumberOfSeats = numericUpDownAmountPeople.Value;

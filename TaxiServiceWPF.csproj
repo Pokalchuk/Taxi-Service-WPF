@@ -132,6 +132,7 @@
     <Compile Include="Exception\WindowForException.xaml.cs">
       <DependentUpon>WindowForException.xaml</DependentUpon>
     </Compile>
+    <Compile Include="OtherClasses\WorkingWithXML.cs" />
     <Page Include="Taxist\TaxistWorkInfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

@@ -27,11 +27,6 @@ namespace TaxiServiceWPF
             truck = (Truck)carMain;
         }
 
-        private void tbMaxKilogramsCargo_LostFocus(object sender, RoutedEventArgs e)
-        {
-           
-           
-        }
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {
             base.OnMouseLeftButtonDown(e);

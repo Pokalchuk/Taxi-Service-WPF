@@ -10,7 +10,7 @@
   <CarName>e</CarName>
   <CarModel>e</CarModel>
   <CarNumber>e</CarNumber>
-  <NumberOfSeats>4</NumberOfSeats>
+  <NumberOfSeats>2</NumberOfSeats>
   <IsChildSeat>true</IsChildSeat>
   <IsWheelChair>false</IsWheelChair>
 </EconomCar>

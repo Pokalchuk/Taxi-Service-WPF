@@ -92,27 +92,15 @@ namespace TaxiServiceWPF
 
                 if (typeCar == "Econom")
                 {
-                    XmlSerializer xmlSerializer = new XmlSerializer(typeof(EconomCar));
-                    using (Stream stream = File.OpenRead($@"..\..\XML\TaxistsWithCars\{nickname}.xml"))
-                    {
-                        car = (EconomCar)xmlSerializer.Deserialize(stream);
-                    }
+                    WorkingWithXML.DeserializeEconomCar(ref car, nickname);
                 }
                 else if (typeCar == "Luxury")
                 {
-                    XmlSerializer xmlSerializer = new XmlSerializer(typeof(LuxuryCar));
-                    using (Stream stream = File.OpenRead($@"..\..\XML\TaxistsWithCars\{nickname}.xml"))
-                    {
-                        car = (LuxuryCar)xmlSerializer.Deserialize(stream);
-                    }
+                    WorkingWithXML.DeserializeLuxuryCar(ref car, nickname);
                 }
                 else if (typeCar == "Truck")
                 {
-                    XmlSerializer xmlSerializer = new XmlSerializer(typeof(Truck));
-                    using (Stream stream = File.OpenRead($@"..\..\XML\TaxistsWithCars\{nickname}.xml"))
-                    {
-                        car = (Truck)xmlSerializer.Deserialize(stream);
-                    }
+                    WorkingWithXML.DeserializeTruck(ref car, nickname);
                 }
                 TaxistWorking taxistWorking = new TaxistWorking(car);
                 taxistWorking.ShowDialog();

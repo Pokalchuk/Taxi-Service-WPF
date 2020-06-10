@@ -2,59 +2,49 @@
 <ArrayOfLuxuryCar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <LuxuryCar>
     <User>
+      <Name>Igor</Name>
+      <Surname>Galkin</Surname>
+      <Street>Polovtsia:11,Entrance:2 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Ostin</Name>
+      <Surname>Vlasenko</Surname>
+      <Street>Bohoyavlenska:2,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Artem</Name>
+      <Surname>Porobko</Surname>
+      <Street>Moskovskaya:2,Entrance:6 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Ostin</Name>
+      <Surname>Samsonov</Surname>
+      <Street>Bohoyavlenska:38,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
       <Name>Vasil</Name>
-      <Surname>Vasilevichka</Surname>
-      <Street>Romanovicha:29,Entrance:3 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Fedor</Name>
-      <Surname>Melnyk</Surname>
-      <Street>Soborna:24,Entrance:3 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Viktoria</Name>
-      <Surname>Pokhulyk</Surname>
-      <Street>Zlota:18,Entrance:2 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Igor</Name>
-      <Surname>Sagaidachniy</Surname>
-      <Street>Volodimira:33,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Fedor</Name>
-      <Surname>Sagaidachniy</Surname>
-      <Street>Polovtsia:27,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Igor</Name>
       <Surname>Koval</Surname>
-      <Street>Zlota:41,Entrance:5 </Street>
+      <Street>Ogirkova:2,Entrance:4 </Street>
     </User>
     <NumberOfSeats>1</NumberOfSeats>
     <IsTv>false</IsTv>
@@ -62,79 +52,29 @@
   </LuxuryCar>
   <LuxuryCar>
     <User>
-      <Name>Igor</Name>
-      <Surname>Parhomenko</Surname>
-      <Street>Ogirkova:21,Entrance:4 </Street>
+      <Name>Kolia</Name>
+      <Surname>Samsonov</Surname>
+      <Street>Moskovskaya:14,Entrance:1 </Street>
     </User>
     <NumberOfSeats>1</NumberOfSeats>
     <IsTv>true</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Igor</Name>
-      <Surname>Koval</Surname>
-      <Street>Sagaychuka:8,Entrance:2 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>false</IsTv>
     <IsAlcohol>true</IsAlcohol>
   </LuxuryCar>
   <LuxuryCar>
     <User>
       <Name>Vitaliy</Name>
-      <Surname>Porobko</Surname>
-      <Street>Vishneva:15,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Stepan</Name>
-      <Surname>Pokhulyk</Surname>
-      <Street>Bohoyavlenska:12,Entrance:6 </Street>
+      <Surname>Gaychuk</Surname>
+      <Street>Volodimira:42,Entrance:6 </Street>
     </User>
     <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Fedor</Name>
-      <Surname>Parhomenko</Surname>
-      <Street>Romanovicha:37,Entrance:2 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Kolia</Name>
-      <Surname>Vlasenko</Surname>
-      <Street>Vishneva:31,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
     <IsTv>false</IsTv>
-    <IsAlcohol>false</IsAlcohol>
+    <IsAlcohol>true</IsAlcohol>
   </LuxuryCar>
   <LuxuryCar>
     <User>
-      <Name>Ostin</Name>
-      <Surname>Kozachok</Surname>
-      <Street>Shevchenka:33,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Fedor</Name>
-      <Surname>Pokalchuk</Surname>
-      <Street>Volodimira:37,Entrance:4 </Street>
+      <Name>Irina</Name>
+      <Surname>Parhomenko</Surname>
+      <Street>Ogirkova:30,Entrance:6 </Street>
     </User>
     <NumberOfSeats>2</NumberOfSeats>
     <IsTv>true</IsTv>
@@ -143,118 +83,68 @@
   <LuxuryCar>
     <User>
       <Name>Igor</Name>
-      <Surname>Galkin</Surname>
-      <Street>Moskovskaya:21,Entrance:1 </Street>
+      <Surname>Melnyk</Surname>
+      <Street>Omega:1,Entrance:4 </Street>
     </User>
     <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Irina</Name>
-      <Surname>Parhomenko</Surname>
-      <Street>Volodimira:21,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Kolia</Name>
-      <Surname>Pokhulyk</Surname>
-      <Street>Sagaychuka:43,Entrance:3 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Roma</Name>
-      <Surname>Koval</Surname>
-      <Street>Soborna:12,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
     <IsTv>true</IsTv>
     <IsAlcohol>true</IsAlcohol>
   </LuxuryCar>
   <LuxuryCar>
     <User>
-      <Name>Viktoria</Name>
-      <Surname>Melnyk</Surname>
-      <Street>Soborna:10,Entrance:5 </Street>
+      <Name>Stepan</Name>
+      <Surname>Koval</Surname>
+      <Street>Shevchenka:8,Entrance:5 </Street>
     </User>
-    <NumberOfSeats>2</NumberOfSeats>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Kolia</Name>
+      <Surname>Kozachok</Surname>
+      <Street>Vishneva:44,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
     <IsTv>true</IsTv>
     <IsAlcohol>true</IsAlcohol>
   </LuxuryCar>
   <LuxuryCar>
     <User>
       <Name>Artem</Name>
-      <Surname>Porobko</Surname>
-      <Street>Bohoyavlenska:21,Entrance:5 </Street>
+      <Surname>Mizavich</Surname>
+      <Street>Sagaychuka:32,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Stepan</Name>
+      <Surname>Gaychuk</Surname>
+      <Street>Ogirkova:43,Entrance:6 </Street>
     </User>
     <NumberOfSeats>2</NumberOfSeats>
     <IsTv>false</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Viktoria</Name>
-      <Surname>Gaychuk</Surname>
-      <Street>Moskovskaya:28,Entrance:3 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Arthur</Name>
-      <Surname>Porobko</Surname>
-      <Street>Shevchenka:32,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>false</IsAlcohol>
+    <IsAlcohol>true</IsAlcohol>
   </LuxuryCar>
   <LuxuryCar>
     <User>
       <Name>Nadia</Name>
-      <Surname>Sagaidachniy</Surname>
-      <Street>Volodimira:32,Entrance:2 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Artem</Name>
-      <Surname>Samsonov</Surname>
-      <Street>Shevchenka:16,Entrance:5 </Street>
+      <Surname>Vilenskiy</Surname>
+      <Street>Moskovskaya:4,Entrance:4 </Street>
     </User>
     <NumberOfSeats>2</NumberOfSeats>
     <IsTv>false</IsTv>
-    <IsAlcohol>false</IsAlcohol>
+    <IsAlcohol>true</IsAlcohol>
   </LuxuryCar>
   <LuxuryCar>
     <User>
-      <Name>Fedor</Name>
-      <Surname>Melnyk</Surname>
-      <Street>Omega:43,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Ostin</Name>
-      <Surname>Galkin</Surname>
-      <Street>Bohoyavlenska:31,Entrance:3 </Street>
+      <Name>Stepan</Name>
+      <Surname>Vilenskiy</Surname>
+      <Street>Volodimira:1,Entrance:5 </Street>
     </User>
     <NumberOfSeats>1</NumberOfSeats>
     <IsTv>false</IsTv>
@@ -262,689 +152,389 @@
   </LuxuryCar>
   <LuxuryCar>
     <User>
-      <Name>Roma</Name>
-      <Surname>Gaychuk</Surname>
-      <Street>Zlota:33,Entrance:1 </Street>
+      <Name>Stepan</Name>
+      <Surname>Vilenskiy</Surname>
+      <Street>Ogirkova:24,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Arthur</Name>
+      <Surname>Samsonov</Surname>
+      <Street>Bohoyavlenska:28,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Igor</Name>
+      <Surname>Samsonov</Surname>
+      <Street>Volodimira:14,Entrance:2 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Fedor</Name>
+      <Surname>Mizavich</Surname>
+      <Street>Shevchenka:7,Entrance:6 </Street>
     </User>
     <NumberOfSeats>1</NumberOfSeats>
     <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Roma</Name>
+      <Surname>Sagaidachniy</Surname>
+      <Street>Mir:3,Entrance:2 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
   </LuxuryCar>
   <LuxuryCar>
     <User>
       <Name>Nadia</Name>
-      <Surname>Samsonov</Surname>
-      <Street>Shevchenka:27,Entrance:4 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Viktoria</Name>
-      <Surname>Koval</Surname>
-      <Street>Mir:14,Entrance:4 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Artem</Name>
-      <Surname>Vlasenko</Surname>
-      <Street>Mir:43,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Vasil</Name>
-      <Surname>Melnyk</Surname>
-      <Street>Polovtsia:31,Entrance:2 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Vitaliy</Name>
-      <Surname>Kozachok</Surname>
-      <Street>Moskovskaya:40,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Petro</Name>
-      <Surname>Melnyk</Surname>
-      <Street>Moskovskaya:11,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Arthur</Name>
-      <Surname>Vasilevichka</Surname>
-      <Street>Sagaychuka:30,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Vasil</Name>
-      <Surname>Samsonov</Surname>
-      <Street>Romanovicha:34,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Fedor</Name>
-      <Surname>Mizavich</Surname>
-      <Street>Vishneva:16,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Vitaliy</Name>
-      <Surname>Gaychuk</Surname>
-      <Street>Bohoyavlenska:24,Entrance:3 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Vasil</Name>
-      <Surname>Vlasenko</Surname>
-      <Street>Mir:21,Entrance:2 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Stepan</Name>
-      <Surname>Kozachok</Surname>
-      <Street>Bohoyavlenska:33,Entrance:3 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Arthur</Name>
       <Surname>Galkin</Surname>
-      <Street>Shevchenka:22,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Irina</Name>
-      <Surname>Pokalchuk</Surname>
-      <Street>Yabluneva:42,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Fedor</Name>
-      <Surname>Galkin</Surname>
-      <Street>Soborna:37,Entrance:5 </Street>
+      <Street>Soborna:24,Entrance:5 </Street>
     </User>
     <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>true</IsAlcohol>
+    <IsTv>false</IsTv>
+    <IsAlcohol>false</IsAlcohol>
   </LuxuryCar>
   <LuxuryCar>
     <User>
       <Name>Stepan</Name>
-      <Surname>Gaychuk</Surname>
-      <Street>Soborna:36,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Kolia</Name>
-      <Surname>Pokalchuk</Surname>
-      <Street>Vishneva:34,Entrance:5 </Street>
+      <Surname>Pokhulyk</Surname>
+      <Street>Vishneva:9,Entrance:5 </Street>
     </User>
     <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Roma</Name>
-      <Surname>Melnyk</Surname>
-      <Street>Mir:20,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
     <IsTv>true</IsTv>
     <IsAlcohol>true</IsAlcohol>
   </LuxuryCar>
   <LuxuryCar>
     <User>
       <Name>Vitaliy</Name>
-      <Surname>Parhomenko</Surname>
-      <Street>Ogirkova:15,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Arthur</Name>
-      <Surname>Mizavich</Surname>
-      <Street>Oleni Teligi:23,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Vitaliy</Name>
-      <Surname>Pokhulyk</Surname>
-      <Street>Omega:20,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Fedor</Name>
-      <Surname>Vilenskiy</Surname>
-      <Street>Volodimira:28,Entrance:2 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Igor</Name>
-      <Surname>Sagaidachniy</Surname>
-      <Street>Moskovskaya:31,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Arthur</Name>
-      <Surname>Pokhulyk</Surname>
-      <Street>Mir:31,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Petro</Name>
-      <Surname>Pokhulyk</Surname>
-      <Street>Bohoyavlenska:41,Entrance:2 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Stepan</Name>
-      <Surname>Mizavich</Surname>
-      <Street>Sagaychuka:32,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Roma</Name>
-      <Surname>Pokalchuk</Surname>
-      <Street>Romanovicha:2,Entrance:2 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Viktoria</Name>
-      <Surname>Pokhulyk</Surname>
-      <Street>Oleni Teligi:32,Entrance:3 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Irina</Name>
-      <Surname>Vlasenko</Surname>
-      <Street>Yabluneva:8,Entrance:3 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Igor</Name>
-      <Surname>Kozachok</Surname>
-      <Street>Shevchenka:27,Entrance:3 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Stepan</Name>
-      <Surname>Galkin</Surname>
-      <Street>Polovtsia:33,Entrance:4 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Stepan</Name>
-      <Surname>Vilenskiy</Surname>
-      <Street>Mir:8,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Ostin</Name>
       <Surname>Porobko</Surname>
-      <Street>Polovtsia:27,Entrance:2 </Street>
+      <Street>Bohoyavlenska:8,Entrance:5 </Street>
     </User>
     <NumberOfSeats>2</NumberOfSeats>
     <IsTv>false</IsTv>
     <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Igor</Name>
-      <Surname>Vilenskiy</Surname>
-      <Street>Mir:21,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Viktoria</Name>
-      <Surname>Parhomenko</Surname>
-      <Street>Romanovicha:13,Entrance:3 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Ostin</Name>
-      <Surname>Kozachok</Surname>
-      <Street>Soborna:20,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Arthur</Name>
-      <Surname>Pokhulyk</Surname>
-      <Street>Shevchenka:17,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Fedor</Name>
-      <Surname>Vasilevichka</Surname>
-      <Street>Polovtsia:20,Entrance:2 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Roma</Name>
-      <Surname>Samsonov</Surname>
-      <Street>Omega:27,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Petro</Name>
-      <Surname>Pokalchuk</Surname>
-      <Street>Soborna:43,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Arthur</Name>
-      <Surname>Koval</Surname>
-      <Street>Yabluneva:34,Entrance:3 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Fedor</Name>
-      <Surname>Melnyk</Surname>
-      <Street>Oleni Teligi:13,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Arthur</Name>
-      <Surname>Vilenskiy</Surname>
-      <Street>Vishneva:20,Entrance:3 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Kolia</Name>
-      <Surname>Melnyk</Surname>
-      <Street>Moskovskaya:23,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Petro</Name>
-      <Surname>Melnyk</Surname>
-      <Street>Vishneva:11,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Irina</Name>
-      <Surname>Sagaidachniy</Surname>
-      <Street>Zlota:19,Entrance:2 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Ostin</Name>
-      <Surname>Kozachok</Surname>
-      <Street>Soborna:23,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Arthur</Name>
-      <Surname>Kozachok</Surname>
-      <Street>Mir:43,Entrance:4 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
   </LuxuryCar>
   <LuxuryCar>
     <User>
       <Name>Ivan</Name>
-      <Surname>Koval</Surname>
-      <Street>Volodimira:16,Entrance:3 </Street>
+      <Surname>Sagaidachniy</Surname>
+      <Street>Omega:27,Entrance:3 </Street>
     </User>
     <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Kolia</Name>
+      <Surname>Sagaidachniy</Surname>
+      <Street>Shevchenka:33,Entrance:2 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Roma</Name>
+      <Surname>Vlasenko</Surname>
+      <Street>Moskovskaya:6,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Kolia</Name>
+      <Surname>Samsonov</Surname>
+      <Street>Polovtsia:12,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Roma</Name>
+      <Surname>Galkin</Surname>
+      <Street>Yabluneva:42,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Kolia</Name>
+      <Surname>Vilenskiy</Surname>
+      <Street>Moskovskaya:27,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Irina</Name>
+      <Surname>Vilenskiy</Surname>
+      <Street>Zlota:16,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Vitaliy</Name>
+      <Surname>Melnyk</Surname>
+      <Street>Sagaychuka:31,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Stepan</Name>
+      <Surname>Samsonov</Surname>
+      <Street>Mir:13,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Nadia</Name>
+      <Surname>Samsonov</Surname>
+      <Street>Polovtsia:23,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Irina</Name>
+      <Surname>Gaychuk</Surname>
+      <Street>Zlota:37,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Arthur</Name>
+      <Surname>Vlasenko</Surname>
+      <Street>Mir:9,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Stepan</Name>
+      <Surname>Koval</Surname>
+      <Street>Volodimira:13,Entrance:6 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Ivan</Name>
+      <Surname>Pokhulyk</Surname>
+      <Street>Zlota:26,Entrance:6 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Igor</Name>
+      <Surname>Koval</Surname>
+      <Street>Shevchenka:30,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Igor</Name>
+      <Surname>Vasilevichka</Surname>
+      <Street>Moskovskaya:17,Entrance:2 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Petro</Name>
+      <Surname>Pokalchuk</Surname>
+      <Street>Ogirkova:25,Entrance:2 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Vitaliy</Name>
+      <Surname>Mizavich</Surname>
+      <Street>Shevchenka:31,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Roma</Name>
+      <Surname>Mizavich</Surname>
+      <Street>Volodimira:2,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Stepan</Name>
+      <Surname>Porobko</Surname>
+      <Street>Soborna:14,Entrance:2 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Ivan</Name>
+      <Surname>Vlasenko</Surname>
+      <Street>Bohoyavlenska:28,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Irina</Name>
+      <Surname>Gaychuk</Surname>
+      <Street>Mir:19,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Ivan</Name>
+      <Surname>Gaychuk</Surname>
+      <Street>Vishneva:1,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Viktoria</Name>
+      <Surname>Kozachok</Surname>
+      <Street>Vishneva:4,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Ostin</Name>
+      <Surname>Vilenskiy</Surname>
+      <Street>Mir:37,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Artem</Name>
+      <Surname>Samsonov</Surname>
+      <Street>Soborna:1,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
     <IsTv>false</IsTv>
     <IsAlcohol>false</IsAlcohol>
   </LuxuryCar>
   <LuxuryCar>
     <User>
       <Name>Ivan</Name>
-      <Surname>Vilenskiy</Surname>
-      <Street>Ogirkova:11,Entrance:1 </Street>
+      <Surname>Gaychuk</Surname>
+      <Street>Soborna:7,Entrance:5 </Street>
     </User>
     <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>false</IsTv>
+    <IsTv>true</IsTv>
     <IsAlcohol>false</IsAlcohol>
   </LuxuryCar>
   <LuxuryCar>
     <User>
-      <Name>Vasil</Name>
-      <Surname>Vlasenko</Surname>
-      <Street>Romanovicha:9,Entrance:5 </Street>
+      <Name>Ostin</Name>
+      <Surname>Mizavich</Surname>
+      <Street>Omega:4,Entrance:6 </Street>
     </User>
-    <NumberOfSeats>1</NumberOfSeats>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Ivan</Name>
+      <Surname>Vlasenko</Surname>
+      <Street>Sagaychuka:26,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Artem</Name>
+      <Surname>Pokalchuk</Surname>
+      <Street>Volodimira:24,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
     <IsTv>true</IsTv>
     <IsAlcohol>true</IsAlcohol>
   </LuxuryCar>
   <LuxuryCar>
     <User>
       <Name>Kolia</Name>
-      <Surname>Porobko</Surname>
-      <Street>Oleni Teligi:3,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Petro</Name>
-      <Surname>Porobko</Surname>
-      <Street>Soborna:44,Entrance:4 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Ostin</Name>
-      <Surname>Vilenskiy</Surname>
-      <Street>Moskovskaya:22,Entrance:4 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Ostin</Name>
-      <Surname>Mizavich</Surname>
-      <Street>Oleni Teligi:39,Entrance:3 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Nadia</Name>
-      <Surname>Galkin</Surname>
-      <Street>Volodimira:34,Entrance:3 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Ostin</Name>
-      <Surname>Samsonov</Surname>
-      <Street>Polovtsia:12,Entrance:2 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Arthur</Name>
-      <Surname>Vilenskiy</Surname>
-      <Street>Ogirkova:35,Entrance:2 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Artem</Name>
-      <Surname>Mizavich</Surname>
-      <Street>Mir:39,Entrance:3 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Petro</Name>
-      <Surname>Koval</Surname>
-      <Street>Volodimira:33,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Igor</Name>
-      <Surname>Parhomenko</Surname>
-      <Street>Mir:29,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Petro</Name>
-      <Surname>Vasilevichka</Surname>
-      <Street>Yabluneva:35,Entrance:3 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Vasil</Name>
-      <Surname>Vlasenko</Surname>
-      <Street>Yabluneva:30,Entrance:4 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Igor</Name>
-      <Surname>Parhomenko</Surname>
-      <Street>Polovtsia:32,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Arthur</Name>
-      <Surname>Koval</Surname>
-      <Street>Romanovicha:9,Entrance:6 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Igor</Name>
-      <Surname>Vlasenko</Surname>
-      <Street>Romanovicha:18,Entrance:2 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>false</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Irina</Name>
-      <Surname>Porobko</Surname>
-      <Street>Polovtsia:37,Entrance:5 </Street>
-    </User>
-    <NumberOfSeats>1</NumberOfSeats>
-    <IsTv>false</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Vasil</Name>
       <Surname>Sagaidachniy</Surname>
-      <Street>Shevchenka:26,Entrance:1 </Street>
+      <Street>Vishneva:8,Entrance:5 </Street>
     </User>
     <NumberOfSeats>1</NumberOfSeats>
     <IsTv>true</IsTv>
@@ -952,39 +542,39 @@
   </LuxuryCar>
   <LuxuryCar>
     <User>
-      <Name>Fedor</Name>
-      <Surname>Porobko</Surname>
-      <Street>Shevchenka:14,Entrance:2 </Street>
+      <Name>Igor</Name>
+      <Surname>Gaychuk</Surname>
+      <Street>Moskovskaya:38,Entrance:5 </Street>
     </User>
-    <NumberOfSeats>1</NumberOfSeats>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Arthur</Name>
+      <Surname>Gaychuk</Surname>
+      <Street>Mir:43,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
     <IsTv>true</IsTv>
     <IsAlcohol>true</IsAlcohol>
   </LuxuryCar>
   <LuxuryCar>
     <User>
       <Name>Viktoria</Name>
-      <Surname>Sagaidachniy</Surname>
-      <Street>Romanovicha:13,Entrance:6 </Street>
+      <Surname>Gaychuk</Surname>
+      <Street>Polovtsia:8,Entrance:1 </Street>
     </User>
     <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
+    <IsTv>false</IsTv>
     <IsAlcohol>true</IsAlcohol>
   </LuxuryCar>
   <LuxuryCar>
     <User>
-      <Name>Kolia</Name>
-      <Surname>Kozachok</Surname>
-      <Street>Ogirkova:40,Entrance:1 </Street>
-    </User>
-    <NumberOfSeats>2</NumberOfSeats>
-    <IsTv>true</IsTv>
-    <IsAlcohol>true</IsAlcohol>
-  </LuxuryCar>
-  <LuxuryCar>
-    <User>
-      <Name>Igor</Name>
+      <Name>Vasil</Name>
       <Surname>Pokalchuk</Surname>
-      <Street>Shevchenka:30,Entrance:1 </Street>
+      <Street>Ogirkova:10,Entrance:5 </Street>
     </User>
     <NumberOfSeats>1</NumberOfSeats>
     <IsTv>false</IsTv>
@@ -992,11 +582,421 @@
   </LuxuryCar>
   <LuxuryCar>
     <User>
-      <Name>Ostin</Name>
-      <Surname>Mizavich</Surname>
-      <Street>Omega:24,Entrance:2 </Street>
+      <Name>Vitaliy</Name>
+      <Surname>Porobko</Surname>
+      <Street>Sagaychuka:19,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Artem</Name>
+      <Surname>Porobko</Surname>
+      <Street>Volodimira:12,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Roma</Name>
+      <Surname>Galkin</Surname>
+      <Street>Vishneva:19,Entrance:2 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Vasil</Name>
+      <Surname>Samsonov</Surname>
+      <Street>Moskovskaya:12,Entrance:1 </Street>
     </User>
     <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Viktoria</Name>
+      <Surname>Parhomenko</Surname>
+      <Street>Sagaychuka:36,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Petro</Name>
+      <Surname>Vasilevichka</Surname>
+      <Street>Mir:23,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Kolia</Name>
+      <Surname>Parhomenko</Surname>
+      <Street>Sagaychuka:19,Entrance:6 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Fedor</Name>
+      <Surname>Pokhulyk</Surname>
+      <Street>Zlota:32,Entrance:2 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Artem</Name>
+      <Surname>Pokalchuk</Surname>
+      <Street>Soborna:11,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Irina</Name>
+      <Surname>Galkin</Surname>
+      <Street>Moskovskaya:41,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Fedor</Name>
+      <Surname>Vilenskiy</Surname>
+      <Street>Romanovicha:4,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Irina</Name>
+      <Surname>Parhomenko</Surname>
+      <Street>Vishneva:43,Entrance:6 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Nadia</Name>
+      <Surname>Mizavich</Surname>
+      <Street>Zlota:23,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Igor</Name>
+      <Surname>Koval</Surname>
+      <Street>Oleni Teligi:22,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Petro</Name>
+      <Surname>Vlasenko</Surname>
+      <Street>Yabluneva:3,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Viktoria</Name>
+      <Surname>Parhomenko</Surname>
+      <Street>Volodimira:6,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Igor</Name>
+      <Surname>Melnyk</Surname>
+      <Street>Moskovskaya:22,Entrance:2 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Viktoria</Name>
+      <Surname>Pokalchuk</Surname>
+      <Street>Yabluneva:27,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Stepan</Name>
+      <Surname>Koval</Surname>
+      <Street>Zlota:35,Entrance:6 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Kolia</Name>
+      <Surname>Melnyk</Surname>
+      <Street>Volodimira:9,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Ivan</Name>
+      <Surname>Kozachok</Surname>
+      <Street>Vishneva:5,Entrance:6 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Kolia</Name>
+      <Surname>Porobko</Surname>
+      <Street>Volodimira:26,Entrance:6 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Vitaliy</Name>
+      <Surname>Melnyk</Surname>
+      <Street>Polovtsia:36,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Petro</Name>
+      <Surname>Galkin</Surname>
+      <Street>Volodimira:9,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Igor</Name>
+      <Surname>Gaychuk</Surname>
+      <Street>Ogirkova:39,Entrance:6 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Petro</Name>
+      <Surname>Pokhulyk</Surname>
+      <Street>Vishneva:5,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Arthur</Name>
+      <Surname>Melnyk</Surname>
+      <Street>Mir:1,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Irina</Name>
+      <Surname>Sagaidachniy</Surname>
+      <Street>Omega:29,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Arthur</Name>
+      <Surname>Samsonov</Surname>
+      <Street>Soborna:29,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Vitaliy</Name>
+      <Surname>Sagaidachniy</Surname>
+      <Street>Bohoyavlenska:18,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Roma</Name>
+      <Surname>Vlasenko</Surname>
+      <Street>Mir:2,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Stepan</Name>
+      <Surname>Gaychuk</Surname>
+      <Street>Zlota:11,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Viktoria</Name>
+      <Surname>Vasilevichka</Surname>
+      <Street>Oleni Teligi:34,Entrance:2 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Kolia</Name>
+      <Surname>Pokhulyk</Surname>
+      <Street>Polovtsia:1,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Viktoria</Name>
+      <Surname>Gaychuk</Surname>
+      <Street>Ogirkova:24,Entrance:3 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Vasil</Name>
+      <Surname>Gaychuk</Surname>
+      <Street>Omega:4,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Viktoria</Name>
+      <Surname>Vlasenko</Surname>
+      <Street>Volodimira:15,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Roma</Name>
+      <Surname>Pokhulyk</Surname>
+      <Street>Omega:20,Entrance:6 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>true</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Vitaliy</Name>
+      <Surname>Vasilevichka</Surname>
+      <Street>Soborna:1,Entrance:5 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>true</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Ivan</Name>
+      <Surname>Porobko</Surname>
+      <Street>Mir:22,Entrance:1 </Street>
+    </User>
+    <NumberOfSeats>2</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Vasil</Name>
+      <Surname>Galkin</Surname>
+      <Street>Bohoyavlenska:14,Entrance:6 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
+    <IsTv>false</IsTv>
+    <IsAlcohol>false</IsAlcohol>
+  </LuxuryCar>
+  <LuxuryCar>
+    <User>
+      <Name>Kolia</Name>
+      <Surname>Mizavich</Surname>
+      <Street>Polovtsia:28,Entrance:4 </Street>
+    </User>
+    <NumberOfSeats>1</NumberOfSeats>
     <IsTv>false</IsTv>
     <IsAlcohol>false</IsAlcohol>
   </LuxuryCar>

@@ -36,11 +36,7 @@ namespace TaxiServiceWPF
         private void buttonFind_Click(object sender, RoutedEventArgs e)
         {
             List<EconomCar> economCars = new List<EconomCar>();
-            XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<EconomCar>));
-            using (Stream stream = File.OpenRead(@"..\..\XML\EconomCars.xml"))
-            {
-                economCars = (List<EconomCar>)xmlSerializer.Deserialize(stream);
-            }
+            WorkingWithXML.DeserializeEconomBase(ref economCars, @"..\..\XML\EconomCars.xml");
 
             economCar = new EconomCar();
             economCar.IsChildSeat = Convert.ToBoolean(checkBoxChildSeat.IsChecked);

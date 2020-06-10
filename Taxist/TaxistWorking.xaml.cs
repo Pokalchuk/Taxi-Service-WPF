@@ -51,34 +51,19 @@ namespace TaxiServiceWPF
             List<LuxuryCar> usersLuxuryBase = new List<LuxuryCar>();
             List<Truck> usersTruckBase = new List<Truck>();
 
-            XmlSerializer xmlSerializerEconom = new XmlSerializer(typeof(List<EconomCar>));
-            using (Stream stream = File.OpenRead(@"..\..\XML\UserBase\UsersEconomCars.xml"))
-            {
-                usersEconomBase = (List<EconomCar>)xmlSerializerEconom.Deserialize(stream);
-            }
-
-            XmlSerializer xmlSerializerLuxury = new XmlSerializer(typeof(List<LuxuryCar>));
-            using (Stream stream = File.OpenRead(@"..\..\XML\UserBase\UsersLuxuryCars.xml"))
-            {
-                usersLuxuryBase = (List<LuxuryCar>)xmlSerializerLuxury.Deserialize(stream);
-            }
-
-            XmlSerializer xmlSerializerTruck = new XmlSerializer(typeof(List<Truck>));
-            using (Stream stream = File.OpenRead(@"..\..\XML\UserBase\UsersTrucks.xml"))
-            {
-                usersTruckBase = (List<Truck>)xmlSerializerTruck.Deserialize(stream);
-            }
-
             if (carTaxist is EconomCar)
             {
+                WorkingWithXML.DeserializeEconomBase(ref usersEconomBase);
                 user = ((EconomCar)carTaxist).UserMatchTaxistWork(usersEconomBase, district);
             }
             else if (carTaxist is LuxuryCar)
             {
+                WorkingWithXML.DeserializeLuxuryBase(ref usersLuxuryBase);
                 user = ((LuxuryCar)carTaxist).UserMatchTaxistWork(usersLuxuryBase, district);
             }
             else if (carTaxist is Truck)
             {
+                WorkingWithXML.DeserializeTruckBase(ref usersTruckBase);
                 user = ((Truck)carTaxist).UserMatchTaxistWork(usersTruckBase, district);
             }
             TaxistWorkInfo taxistWorkInfo = new TaxistWorkInfo(user);
