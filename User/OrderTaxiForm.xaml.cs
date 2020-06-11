@@ -45,12 +45,12 @@ namespace TaxiServiceWPF
                     throw new Exception("Some field is empty");
                 }
 
-                if(comboBoxCarsType.SelectedIndex==-1)
+                if (comboBoxCarsType.SelectedIndex == -1)
                 {
                     throw new Exception("Make choice of car type");
                 }
 
-                if (comboBoxCarsType.Text=="Econom")
+                if (comboBoxCarsType.Text == "Econom")
                 {
                     UserEconomSettings economSettings = new UserEconomSettings();
                     if (economSettings.ShowDialog() == true)
@@ -58,15 +58,15 @@ namespace TaxiServiceWPF
                         car = economSettings.economCar;
                     }
                 }
-                else if (comboBoxCarsType.Text=="Luxury")
+                else if (comboBoxCarsType.Text == "Luxury")
                 {
                     UserLuxurySettings luxurySettings = new UserLuxurySettings();
-                    if (luxurySettings.ShowDialog() ==true)
+                    if (luxurySettings.ShowDialog() == true)
                     {
                         car = luxurySettings.luxuryCar;
                     }
                 }
-                else if (comboBoxCarsType.Text=="Truck")
+                else if (comboBoxCarsType.Text == "Truck")
                 {
                     UserTruckSettings truckSettings = new UserTruckSettings();
                     if (truckSettings.ShowDialog() == true)
@@ -77,7 +77,7 @@ namespace TaxiServiceWPF
                 this.Hide();
                 DetailsArrivalCar detailsArrivalCar = new DetailsArrivalCar(car);
                 detailsArrivalCar.ShowDialog();
-               
+
             }
             catch (Exception ex)
             {

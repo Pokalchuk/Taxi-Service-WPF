@@ -38,10 +38,12 @@ namespace TaxiServiceWPF
             List<EconomCar> economCars = new List<EconomCar>();
             WorkingWithXML.DeserializeEconomBase(ref economCars, @"..\..\XML\EconomCars.xml");
 
-            economCar = new EconomCar();
-            economCar.IsChildSeat = Convert.ToBoolean(checkBoxChildSeat.IsChecked);
-            economCar.IsWheelChair = Convert.ToBoolean(checkBoxWheelChair.IsChecked);
-            economCar.NumberOfSeats = numericUpDownAmountPeople.Value;
+            economCar = new EconomCar
+            {
+                IsChildSeat = Convert.ToBoolean(checkBoxChildSeat.IsChecked),
+                IsWheelChair = Convert.ToBoolean(checkBoxWheelChair.IsChecked),
+                NumberOfSeats = numericUpDownAmountPeople.Value
+            };
 
             for (int i = 0; i < economCars.Count; ++i)
             {

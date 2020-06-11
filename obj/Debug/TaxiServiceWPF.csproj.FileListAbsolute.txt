@@ -43,14 +43,12 @@ F:\WPF\TaxiServiceWPF\obj\Debug\Taxist\TaxistTruckDetails.baml
 F:\WPF\TaxiServiceWPF\obj\Debug\User\UserTruckSettings.baml
 F:\WPF\TaxiServiceWPF\obj\Debug\User\UserLuxurySettings.baml
 F:\WPF\TaxiServiceWPF\obj\Debug\User\UserEconomSettings.baml
-F:\WPF\TaxiServiceWPF\obj\Debug\Login\Login.g.cs
 F:\WPF\TaxiServiceWPF\obj\Debug\Login\LoginTaxist.g.cs
 F:\WPF\TaxiServiceWPF\obj\Debug\Login\LoginUser.g.cs
 F:\WPF\TaxiServiceWPF\obj\Debug\StartPoint\Menu.g.cs
 F:\WPF\TaxiServiceWPF\obj\Debug\User\OrderTaxiForm.g.cs
 F:\WPF\TaxiServiceWPF\obj\Debug\Registration\RegistrationTaxist.g.cs
 F:\WPF\TaxiServiceWPF\obj\Debug\Registration\RegistrationUser.g.cs
-F:\WPF\TaxiServiceWPF\obj\Debug\Login\Login.baml
 F:\WPF\TaxiServiceWPF\obj\Debug\Login\LoginTaxist.baml
 F:\WPF\TaxiServiceWPF\obj\Debug\Login\LoginUser.baml
 F:\WPF\TaxiServiceWPF\obj\Debug\StartPoint\Menu.baml

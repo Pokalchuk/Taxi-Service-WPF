@@ -38,10 +38,12 @@ namespace TaxiServiceWPF
             List<LuxuryCar> luxuryCars = new List<LuxuryCar>();
             WorkingWithXML.DeserializeLuxuryBase(ref luxuryCars, @"..\..\XML\LuxuryCars.xml");
 
-            luxuryCar = new LuxuryCar();
-            luxuryCar.IsTv = Convert.ToBoolean(checkBoxTv.IsChecked);
-            luxuryCar.IsAlcohol = Convert.ToBoolean(checkBoxAlcohol.IsChecked);
-            luxuryCar.NumberOfSeats = numericUpDownAmountPeople.Value;
+            luxuryCar = new LuxuryCar
+            {
+                IsTv = Convert.ToBoolean(checkBoxTv.IsChecked),
+                IsAlcohol = Convert.ToBoolean(checkBoxAlcohol.IsChecked),
+                NumberOfSeats = numericUpDownAmountPeople.Value
+            };
 
             for (int i = 0; i < luxuryCars.Count; ++i)
             {

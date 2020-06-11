@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TaxiServiceWPF" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        Title="Menu" Height="335" Width="450" Background="#FF1A1B1F"  WindowStyle="None" MouseDown="Window_MouseDown" AllowsTransparency="True" ResizeMode="CanResize">
+        Title="Menu" Height="335" Width="450" MinHeight="335" MinWidth="450" MaxHeight="435" MaxWidth="550" Background="#FF1A1B1F"  WindowStyle="None" MouseDown="Window_MouseDown" AllowsTransparency="True" ResizeMode="CanResize">
     <WindowChrome.WindowChrome>
         <WindowChrome CaptionHeight="0"/>
     </WindowChrome.WindowChrome>

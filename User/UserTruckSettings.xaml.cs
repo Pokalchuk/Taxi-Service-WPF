@@ -44,9 +44,12 @@ namespace TaxiServiceWPF
                 }
                 List<Truck> trucks = new List<Truck>();
                 WorkingWithXML.DeserializeTruckBase(ref trucks, @"..\..\XML\Trucks.xml");
-                truck = new Truck();
-                truck.KilogramsCargo = Convert.ToInt32(tbMaxKilogramsCargo.Text);
-                truck.NumberOfSeats = numericUpDownAmountPeople.Value;
+                truck = new Truck
+                {
+                    KilogramsCargo = Convert.ToInt32(tbMaxKilogramsCargo.Text),
+                    NumberOfSeats = numericUpDownAmountPeople.Value
+                };
+
                 for (int i = 0; i < trucks.Count; ++i)
                 {
                     if ((trucks[i].IsMatch(truck)) != null)

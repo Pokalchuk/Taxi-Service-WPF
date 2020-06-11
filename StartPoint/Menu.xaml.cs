@@ -41,14 +41,14 @@ namespace TaxiServiceWPF
 
         private void ButtonLogin_Click(object sender, RoutedEventArgs e)
         {
-            if (radioButtonUser.IsChecked==true)
+            if (radioButtonUser.IsChecked == true)
             {
                 LoginUser loginUser = new LoginUser();
                 this.Hide();
                 loginUser.ShowDialog();
                 OrderTaxiForm orderTaxi = new OrderTaxiForm();
                 orderTaxi.ShowDialog();
-              
+
             }
             else
             {
@@ -60,7 +60,7 @@ namespace TaxiServiceWPF
 
         private void ButtonRegistration_Click(object sender, RoutedEventArgs e)
         {
-            if (radioButtonUser.IsChecked==true)
+            if (radioButtonUser.IsChecked == true)
             {
                 RegistrationUser registrationUser = new RegistrationUser();
                 this.Hide();

@@ -88,9 +88,6 @@
     <Compile Include="User\DetailsArrivalCar.xaml.cs">
       <DependentUpon>DetailsArrivalCar.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Login\Login.xaml.cs">
-      <DependentUpon>Login.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Login\LoginTaxist.xaml.cs">
       <DependentUpon>LoginTaxist.xaml</DependentUpon>
     </Compile>
@@ -138,10 +135,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="User\DetailsArrivalCar.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Login\Login.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -217,7 +210,6 @@
     <Compile Include="OtherClasses\Base.cs" />
     <Compile Include="OtherClasses\District.cs" />
     <Compile Include="OtherClasses\Person.cs" />
-    <Compile Include="OtherClasses\Sound.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
